@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version  V3.0.0.0 -- build 3 -- Jan van Straaten" generator-info-url="http://www.webgrabplus.com">
+  <channel id="La 1 Catalunya">
+    <display-name lang="es">La 1 Catalunya</display-name>
+    <icon src="https:http://static2.abc.es/assets/1.3.268/img/cadenas-tv/parrilla/396.png" />
+    <url>http://www.laguiatv.abc.es</url>
+  </channel>
+  <channel id="La 2 Catalunya">
+    <display-name lang="es">La 2 Catalunya</display-name>
+    <icon src="https:http://static1.abc.es/assets/1.3.268/img/cadenas-tv/parrilla/413.png" />
+    <url>http://www.laguiatv.abc.es</url>
+  </channel>
+  <channel id="Antena 3">
+    <display-name lang="es">Antena 3</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Cuatro">
+    <display-name lang="es">Cuatro</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Telecinco">
+    <display-name lang="es">Telecinco</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="La Sexta">
+    <display-name lang="es">La Sexta</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="#0">
+    <display-name lang="es">#0</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="#Vamos">
+    <display-name lang="es">#Vamos</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="À Punt">
+    <display-name lang="es">À Punt</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="TV3">
+    <display-name lang="es">TV3</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="8 tv">
+    <display-name lang="es">8 tv</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Movistar Series">
+    <display-name lang="es">Movistar Series</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. Seriesmanía">
+    <display-name lang="es">M. Seriesmanía</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Fox">
+    <display-name lang="es">Fox</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="AXN">
+    <display-name lang="es">AXN</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="TNT">
+    <display-name lang="es">TNT</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Comedy Central">
+    <display-name lang="es">Comedy Central</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Calle 13">
+    <display-name lang="es">Calle 13</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="COSMO">
+    <display-name lang="es">COSMO</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="AMC">
+    <display-name lang="es">AMC</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Fox Life">
+    <display-name lang="es">Fox Life</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="AXN White">
+    <display-name lang="es">AXN White</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="SYFY">
+    <display-name lang="es">SYFY</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="MTV">
+    <display-name lang="es">MTV</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Factoría de Ficción">
+    <display-name lang="es">Factoría de Ficción</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Neox">
+    <display-name lang="es">Neox</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Atreseries">
+    <display-name lang="es">Atreseries</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Energy">
+    <display-name lang="es">Energy</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Movistar Estrenos">
+    <display-name lang="es">Movistar Estrenos</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M.CineDoc&amp;Roll">
+    <display-name lang="es">M.CineDoc&amp;Roll</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Disney+">
+    <display-name lang="es">Disney+</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Movistar Acción">
+    <display-name lang="es">Movistar Acción</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Movistar Comedia">
+    <display-name lang="es">Movistar Comedia</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. Drama">
+    <display-name lang="es">M. Drama</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Movistar Cine Español">
+    <display-name lang="es">Movistar Cine Español</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="TCM">
+    <display-name lang="es">TCM</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Hollywood">
+    <display-name lang="es">Hollywood</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Sundance">
+    <display-name lang="es">Sundance</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="DARK">
+    <display-name lang="es">DARK</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="13 TV">
+    <display-name lang="es">13 TV</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Ten">
+    <display-name lang="es">Ten</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Paramount Channel">
+    <display-name lang="es">Paramount Channel</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. LaLiga">
+    <display-name lang="es">M. LaLiga</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. LaLiga 1">
+    <display-name lang="es">M. LaLiga 1</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. LaLiga 2">
+    <display-name lang="es">M. LaLiga 2</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. LaLiga 3">
+    <display-name lang="es">M. LaLiga 3</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. Liga de Campeones">
+    <display-name lang="es">M. Liga de Campeones</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. Liga de Campeones 1">
+    <display-name lang="es">M. Liga de Campeones 1</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. Liga de Campeones 2">
+    <display-name lang="es">M. Liga de Campeones 2</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Movistar Deportes">
+    <display-name lang="es">Movistar Deportes</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. Deportes 1">
+    <display-name lang="es">M. Deportes 1</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. Deportes 2">
+    <display-name lang="es">M. Deportes 2</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="M. Deportes 3">
+    <display-name lang="es">M. Deportes 3</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Movistar Fórmula 1">
+    <display-name lang="es">Movistar Fórmula 1</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Ubeat">
+    <display-name lang="es">Ubeat</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Movistar Golf">
+    <display-name lang="es">Movistar Golf</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Eurosport 1">
+    <display-name lang="es">Eurosport 1</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Eurosport 2">
+    <display-name lang="es">Eurosport 2</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="GOL">
+    <display-name lang="es">GOL</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Teledeporte">
+    <display-name lang="es">Teledeporte</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Real Madrid TV">
+    <display-name lang="es">Real Madrid TV</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Barça TV">
+    <display-name lang="es">Barça TV</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="National Geographic">
+    <display-name lang="es">National Geographic</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Nat Geo Wild">
+    <display-name lang="es">Nat Geo Wild</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Historia">
+    <display-name lang="es">Historia</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Discovery">
+    <display-name lang="es">Discovery</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Odisea">
+    <display-name lang="es">Odisea</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Blaze">
+    <display-name lang="es">Blaze</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Viajar">
+    <display-name lang="es">Viajar</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Discovery Max">
+    <display-name lang="es">Discovery Max</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Crimen + Investigación">
+    <display-name lang="es">Crimen + Investigación</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="CGTN Español">
+    <display-name lang="es">CGTN Español</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Canal Cocina">
+    <display-name lang="es">Canal Cocina</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Canal Decasa">
+    <display-name lang="es">Canal Decasa</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="DKISS">
+    <display-name lang="es">DKISS</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Divinity">
+    <display-name lang="es">Divinity</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Nova">
+    <display-name lang="es">Nova</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Mega">
+    <display-name lang="es">Mega</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="BE MAD">
+    <display-name lang="es">BE MAD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="El Garage TV">
+    <display-name lang="es">El Garage TV</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Canal Orbe 21">
+    <display-name lang="es">Canal Orbe 21</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Canal Fútbol Replay">
+    <display-name lang="es">Canal Fútbol Replay</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Baby TV">
+    <display-name lang="es">Baby TV</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Disney Junior">
+    <display-name lang="es">Disney Junior</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Canal Panda">
+    <display-name lang="es">Canal Panda</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="NICK JR">
+    <display-name lang="es">NICK JR</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Nickelodeon">
+    <display-name lang="es">Nickelodeon</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Disney Channel">
+    <display-name lang="es">Disney Channel</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Boing">
+    <display-name lang="es">Boing</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Clan TVE">
+    <display-name lang="es">Clan TVE</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="VH1">
+    <display-name lang="es">VH1</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="24 Horas">
+    <display-name lang="es">24 Horas</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="BBC World">
+    <display-name lang="es">BBC World</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="CNN Int">
+    <display-name lang="es">CNN Int</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Fox News">
+    <display-name lang="es">Fox News</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Euronews">
+    <display-name lang="es">Euronews</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Al Jazeera English">
+    <display-name lang="es">Al Jazeera English</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="FRANCE 24">
+    <display-name lang="es">FRANCE 24</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="RT Español">
+    <display-name lang="es">RT Español</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="CNBC">
+    <display-name lang="es">CNBC</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="TV5MONDE">
+    <display-name lang="es">TV5MONDE</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Bloomberg">
+    <display-name lang="es">Bloomberg</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Sky News">
+    <display-name lang="es">Sky News</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="RT France HD">
+    <display-name lang="es">RT France HD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="CNC World">
+    <display-name lang="es">CNC World</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Canal 33">
+    <display-name lang="es">Canal 33</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Esport 3">
+    <display-name lang="es">Esport 3</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="3 24">
+    <display-name lang="es">3 24</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <channel id="Betevé">
+    <display-name lang="es">Betevé</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  <programme start="20200526000000 +0200" stop="20200526012000 +0200" channel="La 1 Catalunya">
+    <title lang="es">MasterChef</title>
+    <desc lang="es">La cocina se convierte en el campo de batalla para quince aspirantes a chefs profesionales. Su habilidad ante los fogones les servirá para convencer a un jurado profesional que valorará la exquisitez de sus platos y la presteza para elaborarlos y servirlos.(n)</desc>
+    <credits>
+      <presenter>Eva González</presenter>
+    </credits>
+    <icon src="https:https://static1.abc.es/media/programas/000/002/977/masterchef-1.jpg" />
+  </programme>
+  <programme start="20200526012000 +0200" stop="20200526022000 +0200" channel="La 1 Catalunya">
+    <title lang="es">Comerse el mundo</title>
+    <desc lang="es">El chef vallisoletano Javier Peña viaja alrededor del mundo con el objetivo de encontrar la esencia de la cocina de cada país. Y todo ello gracias a la ayuda de huéspedes locales que le acercarán lo más auténtico de su cocina.(n)</desc>
+    <credits>
+      <presenter>Javier Peña</presenter>
+    </credits>
+    <icon src="https:https://static3.abc.es/media/programas/000/052/024/comerse-el-mundo-1.jpg" />
+  </programme>
+  <programme start="20200526022000 +0200" stop="20200526040500 +0200" channel="La 1 Catalunya">
+    <title lang="es">La noche en 24 horas</title>
+    <desc lang="es">Informativo diario nocturno presentado por Marc Sala que ofrece un análisis profundo y plural de la actualidad de la jornada.(n)</desc>
+    <credits>
+      <presenter>Marc Sala</presenter>
+    </credits>
+    <icon src="https:https://static3.abc.es/media/programas/000/055/357/la-noche-en-24-horas-1.jpg" />
+  </programme>
+  <programme start="20200526040500 +0200" stop="20200526060000 +0200" channel="La 1 Catalunya">
+    <title lang="es">Noticias 24H</title>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.(n)</desc>
+    <icon src="https:https://static2.abc.es/media/programas/000/000/399/noticias-24h-1.jpg" />
+  </programme>
+  <programme start="20200526060000 +0200" stop="20200526070000 +0200" channel="La 1 Catalunya">
+    <title lang="es">Noticias 24H</title>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.(n)</desc>
+    <icon src="https:https://static2.abc.es/media/programas/000/000/399/noticias-24h-1.jpg" />
+  </programme>
+  <programme start="20200526070000 +0200" stop="20200526083000 +0200" channel="La 1 Catalunya">
+    <title lang="es">Telediario Matinal</title>
+    <desc lang="es">Inma Gómez Lobo y Ana Ibáñez conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Ángel Pons presenta la información deportiva.(n)</desc>
+    <icon src="https:https://static1.abc.es/media/programas/000/000/400/telediario-matinal-1.jpg" />
+  </programme>
+  <programme start="20200526083000 +0200" stop="20200526100000 +0200" channel="La 1 Catalunya">
+    <title lang="es">Los desayunos de TVE</title>
+    <desc lang="es">Programa de análisis de la actualidad, entrevistas y tertulias. Con Sergio Martín como presentador, el espacio da cabida a las diversas opiniones que expresa su panel de comentaristas, representativo del más amplio abanico de sensibilidades.(n)</desc>
+    <credits>
+      <presenter>Sergio Martín</presenter>
+    </credits>
+    <icon src="https:https://static4.abc.es/media/programas/000/000/401/los-desayunos-de-tve-1.jpg" />
+  </programme>
+  <programme start="20200526100000 +0200" stop="20200526130000 +0200" channel="La 1 Catalunya">
+    <title lang="es">La mañana de La 1</title>
+    <desc lang="es">Magacín matinal que reúne información de actualidad, entrevistas, reportajes y diversas secciones divulgativas, entre ellas el espacio de salud 'Saber vivir'. María Casado conduce este espacio diario que además da cobertura a las noticias más importantes del día.(n)</desc>
+    <icon src="https:https://static4.abc.es/media/programas/000/000/402/la-manana-de-la-1-1.jpg" />
+    <rating system="ES">
+      <value>7</value>
+    </rating>
+  </programme>
+  <programme start="20200526130000 +0200" stop="20200526140000 +0200" channel="La 1 Catalunya">
+    <title lang="es">Coronavirus última hora</title>
+    <desc lang="es">La información de última hora sobre la evolución y la expansión del coronavirus.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static1.abc.es/media/programas/000/077/787/coronavirus-ultima-hora-1.jpg" />
+  </programme>
+  <programme start="20200526140000 +0200" stop="20200526150000 +0200" channel="La 1 Catalunya">
+    <title lang="es">L'Informatiu</title>
+    <desc lang="es">Edició de cap de setmana presentada per Oriol Nolis. L'espai ofereix la informació generada a les comarques catalanes i insisteix en les notícies que arriben de la resta d'Espanya i de l'estranger, des d'una òptica propera a l'espectador.(n)</desc>
+    <credits>
+      <presenter>Mireia Bonache</presenter>
+    </credits>
+    <icon src="https:https://static1.abc.es/media/programas/000/007/095/linformatiu-1.jpg" />
+  </programme>
+  <programme start="20200526150000 +0200" stop="20200526160000 +0200" channel="La 1 Catalunya">
+    <title lang="es">Telediario 1</title>
+    <desc lang="es">El noticiario audiovisual más veterano de la historia de la televisión en España. Ana Blanco conduce este espacio que ofrece un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte presentada por Lourdes García Campos.(n)</desc>
+    <icon src="https:https://static4.abc.es/media/programas/000/000/405/telediario-1-1.jpg" />
+  </programme>
+  <programme start="20200526160000 +0200" stop="20200526161500 +0200" channel="La 1 Catalunya">
+    <title lang="es">L'Informatiu</title>
+    <desc lang="es">Edició de cap de setmana presentada per Oriol Nolis. L'espai ofereix la informació generada a les comarques catalanes i insisteix en les notícies que arriben de la resta d'Espanya i de l'estranger, des d'una òptica propera a l'espectador.(n)</desc>
+    <credits>
+      <presenter>Mireia Bonache</presenter>
+    </credits>
+    <icon src="https:https://static1.abc.es/media/programas/000/007/095/linformatiu-1.jpg" />
+  </programme>
+  <programme start="20200526161500 +0200" stop="20200526163000 +0200" channel="La 1 Catalunya">
+    <title lang="es">El tiempo</title>
+    <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.(n)</desc>
+    <icon src="https:https://static4.abc.es/media/programas/000/000/406/el-tiempo-1.jpg" />
+  </programme>
+  <programme start="20200526163000 +0200" stop="20200526172000 +0200" channel="La 1 Catalunya">
+    <title lang="es">Mercado central</title>
+    <sub-title lang="es">Episodio 168</sub-title>
+    <desc lang="es">Tras una inspección municipal, en el mercado tiene que haber una reconversión y no se considera viable que continúe con su actividad. Tras esa decisión se encuentra un importante fondo de inversores que quiere convertirlo en un lujoso centro comercial. La asociación de comerciantes del mercado consigue que el consistorio aplace la decisión: tendrán un año para modernizar el recinto. Pero no todas las familias tienen la misma opinión, y prefieren .(n)</desc>
+    <icon src="https:https://static1.abc.es/media/capitulos/000/195/206/episodio-168-1.jpg" />
+    <episode-num system="onscreen">S1 E168</episode-num>
+  </programme>
+  <programme start="20200526172000 +0200" stop="20200526175000 +0200" channel="La 1 Catalunya">
+    <title lang="es">Servir y proteger</title>
+    <sub-title lang="es">Episodio 151</sub-title>
+    <desc lang="es">Cuarta temporada de esta serie protagonizada por Alicia Ocaña, una joven recién salida de la Academia de Policía que llega a la comisaría del barrio sur de Madrid. En esta nueva entrega, el apellido Soler sigue vinculado a los asuntos más turbios del barrio, que recibe a nuevos vecinos. Con una marcada presencia femenina en los personajes principales, esta serie policiaca aborda el día a día de una comisaría de barrio. Los casos que se investigan.(n)</desc>
+    <icon src="https:https://static3.abc.es/media/capitulos/000/195/207/episodio-151-1.jpg" />
+    <episode-num system="onscreen">S4 E151</episode-num>
+  </programme>
+  <programme start="20200526175000 +0200" stop="20200526181500 +0200" channel="La 1 Catalunya">
+    <title lang="es">Acacias 38</title>
+    <sub-title lang="es">Episodio 1263. Capitulo</sub-title>
+    <desc lang="es">Una historia de ricos y pobres que conviven en un único espacio, en un portal situado en el número 38 de la calle Acacias. Allí florecen sentimientos como el amor, los celos, las pasiones, las venganzas, los odios y la alegría. La familia Serna, los Álvarez- Hermoso, los Hidalgo, los Palacios, sus criadas y la gente del barrio pasan cada día por la puerta de esta escalera. Una telenovela española que se desarrolla entre finales del siglo XIX y pr.(n)</desc>
+    <icon src="https:https://static4.abc.es/media/capitulos/000/195/208/episodio-1263-1.jpg" />
+    <episode-num system="onscreen">S1</episode-num>
+  </programme>
+  <programme start="20200526181500 +0200" stop="20200526190500 +0200" channel="La 1 Catalunya">
+    <title lang="es">El cazador</title>
+    <desc lang="es">Concurso de preguntas y respuestas en el que concursantes anónimos luchan frente a un concursante profesional de la televisión para obtener un gran premio final. En el programa, los cuatro concursantes unirán sus conocimientos para ganar al 'cazador.(n)</desc>
+    <credits>
+      <presenter>Ion Aramendi</presenter>
+    </credits>
+    <icon src="https:https://static2.abc.es/media/programas/000/077/010/el-cazador-1.jpg" />
+  </programme>
+  <programme start="20200526190500 +0200" stop="20200526203000 +0200" channel="La 1 Catalunya">
+    <title lang="es">España directo</title>
+    <desc lang="es">Magacín informativo muy en contacto con los temas sociales que incluye conexiones con todos los rincones de la geografía nacional. El programa pretende acercarse al espectador gracias a la abundancia de intervenciones en directo y a la espontaneidad de sus reporteros.(n)</desc>
+    <credits>
+      <presenter>Roberto Leal</presenter>
+    </credits>
+    <icon src="https:https://static2.abc.es/media/programas/000/000/407/espana-directo-1.jpg" />
+  </programme>
+  <programme start="20200526203000 +0200" stop="20200526210000 +0200" channel="La 1 Catalunya">
+    <title lang="es">Aquí la Tierra</title>
+    <desc lang="es">Quico Taronjí ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.(n)</desc>
+    <credits>
+      <presenter>Quico Taronjí</presenter>
+    </credits>
+    <icon src="https:https://static1.abc.es/media/programas/000/002/205/aqui-la-tierra-1.jpg" />
+  </programme>
+  <programme start="20200526210000 +0200" stop="20200526215200 +0200" channel="La 1 Catalunya">
+    <title lang="es">Telediario 2</title>
+    <desc lang="es">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Carlos Franganillo. También hay espacio para la parcela deportiva presentada por Sergio Sauca.(n)</desc>
+    <icon src="https:https://static2.abc.es/media/programas/000/000/409/telediario-2-1.jpg" />
+  </programme>
+  <programme start="20200526215200 +0200" stop="20200526220500 +0200" channel="La 1 Catalunya">
+    <title lang="es">El tiempo</title>
+    <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.(n)</desc>
+    <icon src="https:https://static4.abc.es/media/programas/000/000/406/el-tiempo-1.jpg" />
+  </programme>
+  <programme start="20200526220500 +0200" stop="20200526230500 +0200" channel="La 1 Catalunya">
+    <title lang="es">El Ministerio del Tiempo</title>
+    <sub-title lang="es">Episodio 4</sub-title>
+    <desc lang="es">Julián, Amelia, Alonso y Pacino y Lola regresan para preservar la historia de España y evitar que cualquier intruso pueda utilizarla para su propio beneficio. Aunque su marcha parecía definitiva, Rodolfo Sancho vuelve al elenco. En la cuarta temporada la serie viajará a tiempos tan diversos como los 80, aparecerán directores de cine como Almodóvar o Berlanga; intelectuales como Clara Campoamor; artistas de la talla de Picasso o Dora Maar; científ.(n)</desc>
+    <icon src="https:https://static1.abc.es/media/capitulos/000/195/209/episodio-4-1.jpg" />
+    <episode-num system="onscreen">S4 E4</episode-num>
+  </programme>
+  <programme start="20200526230500 +0200" stop="20200526235500 +0200" channel="La 1 Catalunya">
+    <title lang="es">Españoles en el mundo</title>
+    <desc lang="es">Programa que se acerca a destinos de todo el mundo a través de los españoles que han decidido instalarse en otro país. Estos "nuevos emigrantes" ofrecen su particular punto de vista sobre el país que los ha acogido y explican sus anécdotas sobre cómo son sus vidas allí.(n)</desc>
+    <icon src="https:https://static1.abc.es/media/programas/000/000/413/espanoles-en-el-mundo-1.jpg" />
+    <rating system="ES">
+      <value>7</value>
+    </rating>
+  </programme>
+  <programme start="20200526000000 +0200" stop="20200526002500 +0200" channel="La 2 Catalunya">
+    <title lang="es">El legado celta de Galicia</title>
+    <desc lang="es">Los celtas, primeros pobladores gallegos castros, no invadieron Galicia sino que llegaron lentamente. El objetivo del documental es mostrar la cultura castreña y compararla con los asentamientos de Inglaterra, Irlanda y Escocia, deteniéndose especialmente en Stonehenge.(n)</desc>
+    <icon src="https:https://static1.abc.es/media/programas/000/024/062/el-legado-celta-de-galicia-1.jpg" />
+  </programme>
+  <programme start="20200526002500 +0200" stop="20200526013000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Documentos TV</title>
+    <desc lang="es">Espacio que trata en profundidad tanto temas de actualidad como procesos sociales e históricos de mayor duración temporal. Estrenado en 1986, es uno de los programas más prestigiosos de TVE y se ha caracterizado durante todo este tiempo por el rigor y la profundidad.(n)</desc>
+    <icon src="https:https://static1.abc.es/media/programas/000/000/674/documentos-tv-1.jpg" />
+    <rating system="ES">
+      <value>7</value>
+    </rating>
+  </programme>
+  <programme start="20200526013000 +0200" stop="20200526020000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Metrópolis</title>
+    <desc lang="es">Espacio de cultura que se ha convertido en un punto de referencia obligado para todos aquellos inquietos por seguir las últimas tendencias en el campo de la creación artística. Temporada tras temporada, el programa ha sabido crear su propio lenguaje televisivo.(n)</desc>
+    <icon src="https:https://static1.abc.es/media/programas/000/002/060/metropolis-1.jpg" />
+    <rating system="ES">
+      <value>18</value>
+    </rating>
+  </programme>
+  <programme start="20200526020000 +0200" stop="20200526023000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Conciertos de Radio-3</title>
+    <desc lang="es">Programa que recoge la actuación de algún cantante, grupo o instrumentista del más actual panorama musical, con predominio de artistas españoles y latinos. El objetivo es abrir las puertas a aquellos artistas y grupos que existen al margen de las listas de ventas.(n)</desc>
+    <icon src="https:https://static1.abc.es/media/programas/000/000/672/conciertos-de-radio-3-1.jpg" />
+  </programme>
+  <programme start="20200526023000 +0200" stop="20200526032000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Nuestro planeta (One Strange Rock)</title>
+    <desc lang="es">Serie documental que narra la extraordinaria historia de la Tierra. Un viaje épico a través de todo el planeta y por el espacio exterior de la mano del actor Will Smith.(n)</desc>
+    <credits>
+      <presenter>Will Smith</presenter>
+    </credits>
+    <icon src="https:https://static4.abc.es/media/programas/000/044/932/nuestro-planeta-one-strange-rock-1.jpg" />
+  </programme>
+  <programme start="20200526032000 +0200" stop="20200526041000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Las recetas de Julie</title>
+    <desc lang="es">La cocinera Julie Andrieu recorre Francia de arriba a abajo para descubrir la historia de las diferentes regiones del país galo a través de recetas típicas y ancestrales que le permitirán comprender mejor las especificaciones y la riqueza del territorio.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static3.abc.es/media/programas/000/002/499/las-recetas-de-julie-1.jpg" />
+  </programme>
+  <programme start="20200526041000 +0200" stop="20200526045000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Mi odisea griega</title>
+    <desc lang="es">Peter Maneas navega por las islas griegas mientras explora su rica historia, cultura, cocina y gente, así como sus secretos y sorpresas ocultas.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static4.abc.es/media/programas/000/078/175/mi-odisea-griega-1.jpg" />
+  </programme>
+  <programme start="20200526045000 +0200" stop="20200526054000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Hitler's circle of evil</title>
+    <sub-title lang="es">El derrumbe</sub-title>
+    <desc lang="es">El círculo interno pone en práctica sus estrategias de huida cuando se ven cercados por los aliados y Hitler se suicida.(n)</desc>
+    <icon src="https:https://static2.abc.es/media/capitulos/000/151/340/el-derrumbe-1.jpg" />
+    <episode-num system="onscreen">S1 E10</episode-num>
+  </programme>
+  <programme start="20200526054000 +0200" stop="20200526054000 +0200" channel="La 2 Catalunya">
+    <title lang="es">El Color: El Espectro De La Ciencia</title>
+    <desc lang="es">Cada color de la naturaleza es una prueba del proceso vital que ha dado forma a la tierra y nos explican cómo ha llegado nuestro mundo a ser cómo es. En este programa la física Helen Czerski buscará los colores que cuentan la historia de nuestro planeta.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static4.abc.es/media/programas/000/051/104/el-color-el-espectro-de-la-ciencia-1.jpg" />
+  </programme>
+  <programme start="20200526054000 +0200" stop="20200526063000 +0200" channel="La 2 Catalunya">
+    <title lang="es">El Color: El Espectro De La Ciencia</title>
+    <desc lang="es">Cada color de la naturaleza es una prueba del proceso vital que ha dado forma a la tierra y nos explican cómo ha llegado nuestro mundo a ser cómo es. En este programa la física Helen Czerski buscará los colores que cuentan la historia de nuestro planeta.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static4.abc.es/media/programas/000/051/104/el-color-el-espectro-de-la-ciencia-1.jpg" />
+  </programme>
+  <programme start="20200526063000 +0200" stop="20200526064500 +0200" channel="La 2 Catalunya">
+    <title lang="es">That's English</title>
+    <desc lang="es">Programa divulgativo que ofrece un curso de inglés a distancia, creado por el Ministerio de Educación en colaboración con la BBC británica y Televisión Española. El curso permite obtener el Certificado del Ciclo Elemental de la Escuela Oficial de Idiomas.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static4.abc.es/media/programas/000/000/884/thats-english-1.jpg" />
+  </programme>
+  <programme start="20200526064500 +0200" stop="20200526065500 +0200" channel="La 2 Catalunya">
+    <title lang="es">That's English</title>
+    <desc lang="es">Programa divulgativo que ofrece un curso de inglés a distancia, creado por el Ministerio de Educación en colaboración con la BBC británica y Televisión Española. El curso permite obtener el Certificado del Ciclo Elemental de la Escuela Oficial de Idiomas.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static4.abc.es/media/programas/000/000/884/thats-english-1.jpg" />
+  </programme>
+  <programme start="20200526065500 +0200" stop="20200526070000 +0200" channel="La 2 Catalunya">
+    <title lang="es">La 2 Exprés</title>
+    <desc lang="es">Una versión resumida del informativo de La 2 que sirve para cerrar el día con las informaciones y las imágenes más impotantes de la jornada. Eso sí, con el sello del veterano espacio del canal público, en el que predominan temas sociales, ecología y nuevas tecnologías.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static3.abc.es/media/programas/000/070/534/la-2-expres-1.jpg" />
+  </programme>
+  <programme start="20200526070000 +0200" stop="20200526073000 +0200" channel="La 2 Catalunya">
+    <title lang="es">80 cm</title>
+    <desc lang="es">Programa de senderismo por la geografía española conducido por Edu Soto. En cada entrega, el actor recorre una senda diferente, donde se cruzará con todo tipo de gente y realizará actividades relacionadas con la naturaleza, la vegetación y los animales de cada zona.(n)</desc>
+    <credits>
+      <presenter>Eduard Soto</presenter>
+    </credits>
+    <icon src="https:https://static4.abc.es/media/programas/000/004/807/80-cm-1.jpg" />
+  </programme>
+  <programme start="20200526073000 +0200" stop="20200526080000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Inglés Online</title>
+    <desc lang="es">Curso de ingles de Televisión Española para hisponoparlantes.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static1.abc.es/media/programas/000/043/130/ingles-online-1.jpg" />
+  </programme>
+  <programme start="20200526080000 +0200" stop="20200526085000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Timbavati</title>
+    <desc lang="es">La reserva del Timbavati, situada en el Parque Nacional Kruger de Sudáfrica, es una zona de primera clase para los animales. Esta serie documental muestra las especies que viven en libertad en este vasto territorio, incluyendo leones, elefantes y leopardos, entre otros.(n)</desc>
+    <icon src="https:https://static1.abc.es/media/programas/000/054/056/timbavati-1.jpg" />
+  </programme>
+  <programme start="20200526085000 +0200" stop="20200526090000 +0200" channel="La 2 Catalunya">
+    <title lang="es">La 2 Exprés</title>
+    <desc lang="es">Una versión resumida del informativo de La 2 que sirve para cerrar el día con las informaciones y las imágenes más impotantes de la jornada. Eso sí, con el sello del veterano espacio del canal público, en el que predominan temas sociales, ecología y nuevas tecnologías.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static3.abc.es/media/programas/000/070/534/la-2-expres-1.jpg" />
+  </programme>
+  <programme start="20200526090000 +0200" stop="20200526093000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Muévete en casa</title>
+    <desc lang="es">Espacio que anima a todos los ciudadanos a cuidar su forma física desde sus domicilios durante el tiempo de aislamiento por el coronavirus. Cesc Escolà es el encargado de conducir el programa, con los medios técnicos adecuados para su emisión en televisión.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static4.abc.es/media/programas/000/077/976/muevete-en-casa-1.jpg" />
+  </programme>
+  <programme start="20200526093000 +0200" stop="20200526102900 +0200" channel="La 2 Catalunya">
+    <title lang="es">Aprendemos en casa 12-14 años</title>
+    <desc lang="es">Programa que ayuda a refrescar a los más pequeños todo lo que están aprendiendo en la escuela. A través de este espacio pueden seguir sus estudios de la forma más divertida y ayuda a volver al colegio con la mente fresca y preparada para acabar el curso escolar.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static4.abc.es/media/programas/000/078/097/aprendemos-en-casa-12-14-anos-1.jpg" />
+  </programme>
+  <programme start="20200526102900 +0200" stop="20200526113000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Aprendemos en casa 14-16 años</title>
+    <desc lang="es">Programa que ayuda a refrescar a los más pequeños todo lo que están aprendiendo en la escuela. A través de este espacio pueden seguir sus estudios de la forma más divertida y ayuda a volver al colegio con la mente fresca y preparada para acabar el curso escolar.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static1.abc.es/media/programas/000/078/098/aprendemos-en-casa-14-16-anos-1.jpg" />
+  </programme>
+  <programme start="20200526113000 +0200" stop="20200526113500 +0200" channel="La 2 Catalunya">
+    <title lang="es">La 2 Exprés</title>
+    <desc lang="es">Una versión resumida del informativo de La 2 que sirve para cerrar el día con las informaciones y las imágenes más impotantes de la jornada. Eso sí, con el sello del veterano espacio del canal público, en el que predominan temas sociales, ecología y nuevas tecnologías.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static3.abc.es/media/programas/000/070/534/la-2-expres-1.jpg" />
+  </programme>
+  <programme start="20200526113500 +0200" stop="20200526123500 +0200" channel="La 2 Catalunya">
+    <title lang="es">Los jardines italianos</title>
+    <desc lang="es">El jardinero y presentador de la BBC Monty Don viaja hasta Italia para realizar su particular recorrido botánico. Desde los románticos huertos del sur hasta los idílicos lagos del norte, el viajero británico descubre la magia de los jardines de la Bota de Europa.(n)</desc>
+    <credits>
+      <presenter>Monty Don</presenter>
+    </credits>
+    <icon src="https:https://static3.abc.es/media/programas/000/074/620/los-jardines-italianos-1.jpg" />
+  </programme>
+  <programme start="20200526123500 +0200" stop="20200526140500 +0200" channel="La 2 Catalunya">
+    <title lang="es">La Balada de Johnny Ringo</title>
+    <desc lang="es">El pistoler Johnny Ringo i els seus homes són assetjats en un ranxo. Durant el xoc, s'incendia la casa i mor, a més de la família de l'amo, quasi tota la banda. Ringo està convençut que el cap de la trampa va aconseguir escapar i consagra la resta de la seva vida a venjar-se. Coproducció hispano-germànica protagonitzada per l'americà Lex Barker, un actor molt popular a Alemanya, conegut per haver protagonitzat una sèrie de westerns basats en les .(n)</desc>
+    <credits>
+      <director>José Luis Madrid</director>
+      <actor>Lex Barker</actor>
+      <actor>Joachim Fuchsberger</actor>
+      <actor>Marianne Koch</actor>
+      <actor>Ralf Wolter</actor>
+      <actor>Barbara Bold</actor>
+      <composer>Federico Martínez Tudó</composer>
+    </credits>
+    <date>1966</date>
+    <category lang="es">Wéstern</category>
+    <icon src="https:https://static1.abc.es/media/peliculas/000/008/843/la-balada-de-johnny-ringo-1.jpg" />
+    <country lang="es">DE</country>
+    <rating system="ES">
+      <value>+12</value>
+    </rating>
+  </programme>
+  <programme start="20200526140500 +0200" stop="20200526150000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Las recetas de Julie</title>
+    <desc lang="es">La cocinera Julie Andrieu recorre Francia de arriba a abajo para descubrir la historia de las diferentes regiones del país galo a través de recetas típicas y ancestrales que le permitirán comprender mejor las especificaciones y la riqueza del territorio.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static3.abc.es/media/programas/000/002/499/las-recetas-de-julie-1.jpg" />
+  </programme>
+  <programme start="20200526150000 +0200" stop="20200526154500 +0200" channel="La 2 Catalunya">
+    <title lang="es">Japón desde el cielo</title>
+    <desc lang="es">Serie documental que muestra la diversidad paisajística de Japón. Todo ello desde el aire, gracias a la más avanzada técnica de fotografía aérea.(n)</desc>
+    <icon src="https:https://static2.abc.es/media/programas/000/054/542/japon-desde-el-cielo-1.jpg" />
+  </programme>
+  <programme start="20200526154500 +0200" stop="20200526163000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Saber y ganar</title>
+    <desc lang="es">El concurso, presentado por Jordi Hurtado, es el programa diario con más años de emisión en la historia de la televisión en España. Durante el programa, tres concursantes se enfrentan a diferentes pruebas de conocimientos culturales y de agilidad mental.(n)</desc>
+    <credits>
+      <presenter>Jordi Hurtado</presenter>
+    </credits>
+    <icon src="https:https://static2.abc.es/media/programas/000/000/894/saber-y-ganar-1.jpg" />
+    <rating system="ES">
+      <value>Todos los públicos</value>
+    </rating>
+  </programme>
+  <programme start="20200526163000 +0200" stop="20200526171800 +0200" channel="La 2 Catalunya">
+    <title lang="es">La guerra de las ballenas: las orcas atacan</title>
+    <desc lang="es">Documental sobre el viaje que realizan las ballenas francas desde los mares ecuatoriales hasta las Islas Aleutianas. Allí les espera abundancia de alimentos, pero también aguardan las orcas, los despredadores marinos más poderosos.(n)</desc>
+  </programme>
+  <programme start="20200526171800 +0200" stop="20200526181000 +0200" channel="La 2 Catalunya">
+    <title lang="es">El Ártico más salvaje</title>
+    <desc lang="es">Serie documental que narra cómo se desarrolla la vida en un territorio tan hostil como es el círculo polar ártico. La supervivencia es una batalla contra los elementos más salvajes del planeta y los animales son capaces de sobrevivir encima y debajo del hielo.(n)</desc>
+    <icon src="https:https://static3.abc.es/media/programas/000/063/742/el-artico-mas-salvaje-1.jpg" />
+  </programme>
+  <programme start="20200526181000 +0200" stop="20200526190000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Noms propis Connectats</title>
+    <desc lang="es">La periodista Anna Cler busca convidats coneguts per al públic que transmetin optimisme pel seu estil de vida. Actors, escriptors i psicòlegs, entre d'altres, donen el seu particular punt de vista en aquest programa que es realitza a través de videotrucades.(n)</desc>
+    <credits>
+      <presenter>Anna Cler</presenter>
+    </credits>
+    <icon src="https:https://static4.abc.es/media/programas/000/079/551/noms-propis-connectats-1.jpg" />
+  </programme>
+  <programme start="20200526190000 +0200" stop="20200526195000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Las recetas de Julie</title>
+    <desc lang="es">La cocinera Julie Andrieu recorre Francia de arriba a abajo para descubrir la historia de las diferentes regiones del país galo a través de recetas típicas y ancestrales que le permitirán comprender mejor las especificaciones y la riqueza del territorio.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static3.abc.es/media/programas/000/002/499/las-recetas-de-julie-1.jpg" />
+  </programme>
+  <programme start="20200526195000 +0200" stop="20200526200000 +0200" channel="La 2 Catalunya">
+    <title lang="es">La 2 Exprés</title>
+    <desc lang="es">Una versión resumida del informativo de La 2 que sirve para cerrar el día con las informaciones y las imágenes más impotantes de la jornada. Eso sí, con el sello del veterano espacio del canal público, en el que predominan temas sociales, ecología y nuevas tecnologías.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static3.abc.es/media/programas/000/070/534/la-2-expres-1.jpg" />
+  </programme>
+  <programme start="20200526200000 +0200" stop="20200526203500 +0200" channel="La 2 Catalunya">
+    <title lang="es">Página 2</title>
+    <desc lang="es">Magacín divulgativo sobre el mundo de los libros que utiliza un tono ameno, entretenido y cercano en el que tanto el lector habitual como el ocasional encontrarán toda la información necesaria para satisfacer su interés por la lectura.(n)</desc>
+    <credits>
+      <presenter>Óscar López</presenter>
+    </credits>
+    <icon src="https:https://static2.abc.es/media/programas/000/000/770/pagina-2-1.jpg" />
+  </programme>
+  <programme start="20200526203500 +0200" stop="20200526210000 +0200" channel="La 2 Catalunya">
+    <title lang="es">La escapada italiana de Jamie</title>
+    <desc lang="es">Después de un año luchando contra la comida basura, Jaime se escapa a Italia en su caravana para reencontrarse con su pasión por la cocina y su devoción por los ingredientes de buena calidad.(n)</desc>
+    <category lang="es">Programa</category>
+    <icon src="https:https://static1.abc.es/media/programas/000/075/760/la-escapada-italiana-de-jamie-1.jpg" />
+  </programme>
+  <programme start="20200526210000 +0200" stop="20200526220000 +0200" channel="La 2 Catalunya">
+    <title lang="es">Los jardines franceses de Monty Don</title>
+    <desc lang="es">El jardinero y presentador de la BBC Monty Don visita algunos de los jardines más famosos e interesantes de Francia.(n)</desc>
+    <icon src="https:https://static2.abc.es/media/programas/000/057/816/los-jardines-franceses-de-monty-don-1.jpg" />
+  </programme>
+</tv>
