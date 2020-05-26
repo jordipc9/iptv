@@ -3,10 +3,10 @@
 #EXTINF:-1, channel-id="0" tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="0 Movistar+ HD"  group-title="Generalistes",0 Movistar+ HD
 rtp://@239.0.5.185:8208
 
-#EXTINF:-1, channel-id="1" tvg-id="la1.es" tvg-logo="" tvg-name="1 La 1 HD"  group-title="Generalistes",1 La 1 HD
+#EXTINF:-1, channel-id="1" tvg-id="la1.es" tvg-name="1 La 1 HD"  group-title="Generalistes",1 La 1 HD
 rtp://@239.0.0.185:8208
 
-#EXTINF:-1, channel-id="2" tvg-id="la2.es" tvg-logo="" tvg-name="2 La 2 HD"  group-title="Generalistes",2 La 2 HD
+#EXTINF:-1, channel-id="2" tvg-id="la2.es" tvg-name="2 La 2 HD"  group-title="Generalistes",2 La 2 HD
 rtp://@239.0.0.183:8208
 
 #EXTINF:-1, channel-id="3" tvg-id="antena3.es" tvg-logo="" tvg-name="3 Antena 3 HD"  group-title="Generalistes",3 Antena 3 HD
