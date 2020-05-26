@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version  V3.0.0.0 -- build 3 -- Jan van Straaten" generator-info-url="http://www.webgrabplus.com">
-  <channel id="La 1 Catalunya">
+  <channel id="1 La 1 HD">
     <display-name lang="es">La 1 Catalunya</display-name>
     <icon src="https:http://static2.abc.es/assets/1.3.268/img/cadenas-tv/parrilla/396.png" />
     <url>http://www.laguiatv.abc.es</url>
   </channel>
-  <channel id="La 2 Catalunya">
+  <channel id="2 La 2 HD">
     <display-name lang="es">La 2 Catalunya</display-name>
     <icon src="https:http://static1.abc.es/assets/1.3.268/img/cadenas-tv/parrilla/413.png" />
     <url>http://www.laguiatv.abc.es</url>
