@@ -12,7 +12,7 @@ rtp://@239.0.0.183:8208
 #EXTINF:-1, channel-id="3" tvg-id="antena3.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_7604_408_1_C00000_0_0_0.png" tvg-name="3 Antena 3 HD"  group-title="Generalistes",3 Antena 3 HD
 rtp://@239.0.0.186:8208
 
-#EXTINF:-1, channel-id="4" tvg-id="cuatro.es" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/C4.png" tvg-name="4 Cuatro HD"  group-title="Generalistes",4 Cuatro HD
+#EXTINF:-1, channel-id="4" tvg-id="cuatro.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_77C7_40A_1_C00000_0_0_0.png" tvg-name="4 Cuatro HD"  group-title="Generalistes",4 Cuatro HD
 rtp://@239.0.0.177:8208
 
 #EXTINF:-1, tvg-id="telecinco.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_77C3_40A_1_C00000_0_0_0.png" tvg-name="5 Tele 5 HD"  group-title="Generalistes",5 Telecinco HD
