@@ -27,7 +27,7 @@ rtp://@239.0.5.187:8208
 #EXTINF:-1, tvg-id="vamos.es" tvg-logo="" tvg-name="8 #Vamos HD"  group-title="Esports",8 #Vamos HD
 rtp://@239.0.5.197:8208
 
-#EXTINF:-1, tvg-id="TV3 CAT" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/TV3CAT.png" tvg-name="9 TV3 HD"  group-title="Generalistes",9 TV3 HD
+#EXTINF:-1, tvg-id="TV3 CAT" tvg-logo="https://pngimage.net/wp-content/uploads/2018/06/tv3-logo-png-3.png" tvg-name="9 TV3 HD"  group-title="Generalistes",9 TV3 HD
 rtp://@239.0.5.186:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="11 Movistar Series HD"  group-title="Series",11 Movistar Series HD
