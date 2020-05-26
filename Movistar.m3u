@@ -1,6 +1,6 @@
 ﻿#EXTM3U
 
-#EXTINF:-1, channel-id="0" tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="0 Movistar+ HD"  group-title="Generalistes",0 Movistar+ HD
+#EXTINF:-1, channel-id="0" tvg-id="EPG N/A" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_75C6_422_1_C00000_0_0_0.png" tvg-name="0 Movistar+ HD"  group-title="Generalistes",0 Movistar+ HD
 rtp://@239.0.5.185:8208
 
 #EXTINF:-1, channel-id="la1.es" tvg-id="la1.es" tvg-name="1 La 1 HD"  group-title="Generalistes",1 La 1 HD
