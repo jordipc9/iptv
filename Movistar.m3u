@@ -200,13 +200,3 @@ rtp://@239.0.0.173:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="98 Clan TVE HD"  group-title="Infantils",98 Clan TVE HD
 rtp://@239.0.0.184:8208
-
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="440 M. La Liga UHD {DRM}"  group-title="Esports",440 M. La Liga UHD {DRM}
-rtp://@239.0.5.205:8208
-
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="441 Movistar L.Campeones UHD {DRM}"  group-title="Esports",441 Movistar L.Campeones UHD {DRM}
-rtp://@239.0.5.211:8208
-
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="442 Movistar F1 UHD {DRM}"  group-title="Esports",442 Movistar F1 UHD {DRM}
-rtp://@239.0.5.206:8208
-
