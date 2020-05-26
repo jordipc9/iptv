@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version  V3.0.0.0 -- build 3 -- Jan van Straaten" generator-info-url="http://www.webgrabplus.com">
   <channel id="1 La 1 HD">
-    <display-name lang="es">La 1 Catalunya</display-name>
+    <display-name lang="es">1 La 1 HD</display-name>
     <icon src="https:http://static2.abc.es/assets/1.3.268/img/cadenas-tv/parrilla/396.png" />
     <url>http://www.laguiatv.abc.es</url>
   </channel>
   <channel id="2 La 2 HD">
-    <display-name lang="es">La 2 Catalunya</display-name>
+    <display-name lang="es">1 La 1 HD</display-name>
     <icon src="https:http://static1.abc.es/assets/1.3.268/img/cadenas-tv/parrilla/413.png" />
     <url>http://www.laguiatv.abc.es</url>
   </channel>
@@ -580,14 +580,14 @@
     <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.(n)</desc>
     <icon src="https:https://static4.abc.es/media/programas/000/000/406/el-tiempo-1.jpg" />
   </programme>
-  <programme start="20200526220500 +0200" stop="20200526230500 +0200" channel="La 1 Catalunya">
+  <programme start="20200526220500 +0200" stop="20200526230500 +0200" channel="1 La 1 HD">
     <title lang="es">El Ministerio del Tiempo</title>
     <sub-title lang="es">Episodio 4</sub-title>
     <desc lang="es">Julián, Amelia, Alonso y Pacino y Lola regresan para preservar la historia de España y evitar que cualquier intruso pueda utilizarla para su propio beneficio. Aunque su marcha parecía definitiva, Rodolfo Sancho vuelve al elenco. En la cuarta temporada la serie viajará a tiempos tan diversos como los 80, aparecerán directores de cine como Almodóvar o Berlanga; intelectuales como Clara Campoamor; artistas de la talla de Picasso o Dora Maar; científ.(n)</desc>
     <icon src="https:https://static1.abc.es/media/capitulos/000/195/209/episodio-4-1.jpg" />
     <episode-num system="onscreen">S4 E4</episode-num>
   </programme>
-  <programme start="20200526230500 +0200" stop="20200526235500 +0200" channel="La 1 Catalunya">
+  <programme start="20200526230500 +0200" stop="20200526235500 +0200" channel="1 La 1 HD">
     <title lang="es">Españoles en el mundo</title>
     <desc lang="es">Programa que se acerca a destinos de todo el mundo a través de los españoles que han decidido instalarse en otro país. Estos "nuevos emigrantes" ofrecen su particular punto de vista sobre el país que los ha acogido y explican sus anécdotas sobre cómo son sus vidas allí.(n)</desc>
     <icon src="https:https://static1.abc.es/media/programas/000/000/413/espanoles-en-el-mundo-1.jpg" />
