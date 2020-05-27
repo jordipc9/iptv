@@ -201,8 +201,32 @@ rtp://@239.0.5.77:8208
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="74 Odisea HD {DRM}"  group-title="Documentals",74 Odisea HD {DRM}
 rtp://@239.0.5.82:8208
 
+#EXTINF:-1,[075] BLAZE
+rtp://@239.0.0.38:8208
+
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="76 Viajar HD"  group-title="Documentals",76 Viajar HD
 rtp://@239.0.5.73:8208
+
+#EXTINF:-1,[077] Discovery Max
+rtp://@239.0.0.32:8208
+
+#EXTINF:-1,[078] Crimen + Investigación
+rtp://@239.0.0.57:8208
+
+#EXTINF:-1,[079] CGTN Español
+rtp://@239.0.0.65:8208
+
+#EXTINF:-1,[080] Cocina
+rtp://@239.0.0.27:8208
+
+#EXTINF:-1,[081] Decasa
+rtp://@239.0.0.71:8208
+
+#EXTINF:-1,[082] DKISS
+rtp://@239.0.0.6:8208
+
+#EXTINF:-1,[083] Divinity
+rtp://@239.0.0.48:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="84 Nova HD"  group-title="Series",84 Nova HD
 rtp://@239.0.5.209:8208
@@ -213,6 +237,24 @@ rtp://@239.0.5.210:8208
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="86 BeMad HD"  group-title="Series",86 BeMad HD
 rtp://@239.0.0.182:8208
 
+#EXTINF:-1,[087] Garage TV
+rtp://@239.0.0.99:8208
+
+#EXTINF:-1,[088] Canal Orbe 21
+rtp://@239.0.0.45:8208
+
+#EXTINF:-1,[089] Fútbol Replay
+rtp://@239.0.0.97:8208
+
+#EXTINF:-1,[090] Baby TV
+rtp://@239.0.0.113:8208
+
+#EXTINF:-1,[091] Disney Junior
+rtp://@239.0.0.10:8208
+
+#EXTINF:-1,[092] Canal Panda
+rtp://@239.0.0.117:8208
+
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="93 Nick Jr HD"  group-title="Infantils",93 Nick Jr HD
 rtp://@239.0.0.167:8208
 
@@ -222,8 +264,74 @@ rtp://@239.0.5.204:8208
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="96 Disney Channel HD"  group-title="Infantils",96 Disney Channel HD
 rtp://@239.0.0.173:8208
 
+#EXTINF:-1,[097] Boing
+rtp://@239.0.0.66:8208
+
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="98 Clan TVE HD"  group-title="Infantils",98 Clan TVE HD
 rtp://@239.0.0.184:8208
+
+#EXTINF:-1,[105] VH1
+rtp://@239.0.0.75:8208
+
+#EXTINF:-1,[112] Canal 24 Horas
+rtp://@239.0.0.78:8208
+
+#EXTINF:-1,[113] BBC world
+rtp://@239.0.0.30:8208
+
+#EXTINF:-1,[114] CNNi
+rtp://@239.0.0.40:8208
+
+#EXTINF:-1,[115] Fox News
+rtp://@239.0.7.65:8208
+
+#EXTINF:-1,[116] Euronews
+rtp://@239.0.0.28:8208
+
+#EXTINF:-1,[117] Al Jazeera
+rtp://@239.0.7.66:8208
+
+#EXTINF:-1,[118] France 24
+rtp://@239.0.7.67:8208
+
+#EXTINF:-1,[119] Russia Today
+rtp://@239.0.7.68:8208
+
+#EXTINF:-1,[120] CNBC Europe
+rtp://@239.0.7.69:8208
+
+#EXTINF:-1,[122] TV5 Monde Europe
+rtp://@239.0.0.31:8208
+
+#EXTINF:-1,[123] Bloomberg
+rtp://@239.0.0.29:8208
+
+#EXTINF:-1,[124] El Toro TV
+rtp://@239.0.0.63:8208
+
+#EXTINF:-1,[129] CNC World
+rtp://@239.0.0.221:8208
+
+#EXTINF:-1,[143] EWTN
+rtp://@239.0.0.72:8208
+
+#EXTINF:-1,[150] Canal Sur Andalucía
+rtp://@239.0.0.1:8208
+
+#EXTINF:-1,[151] TVG Europa
+rtp://@239.0.3.37:8208
+
+#EXTINF:-1,[152] Canal Extremadura SAT
+rtp://@239.0.0.52:8208
+
+#EXTINF:-1,[153] TV3CAT
+rtp://@239.0.3.36:8208
+
+#EXTINF:-1,[154] ETB Sat
+rtp://@239.0.0.60:8208
+
+#EXTINF:-1,[155] Aragón TV Int
+rtp://@239.0.0.81:8208
 
 #EXTINF:-1,[156] Super 3 / 33
 rtp://@239.0.0.24:8208
