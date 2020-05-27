@@ -39,10 +39,10 @@ rtp://@239.0.5.250:8208
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="12 Movistar Seriesmanía HD"  group-title="Series",12 Movistar Seriesmanía HD
 rtp://@239.0.5.83:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="13 FOX HD"  group-title="Series",13 FOX HD
+#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="[013] FOX HD"  group-title="Series",13 FOX HD
 rtp://@239.0.9.134:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="14 AXN HD"  group-title="Series",14 AXN HD
+#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="14 AXN HD"  group-title="Series",[014] AXN HD
 rtp://@239.0.9.131:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="15 TNT HD"  group-title="Series",15 TNT HD
