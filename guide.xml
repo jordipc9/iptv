@@ -5,8 +5,8 @@
     <icon src="https:http://static2.abc.es/assets/1.3.268/img/cadenas-tv/parrilla/396.png" />
     <url>http://www.laguiatv.abc.es</url>
   </channel>
-  <channel id="la1.es">
-    <display-name lang="cs">1 La 1 HD</display-name>
+  <channel id="La 1 Cataluňa">
+    <display-name lang="cs">La 1 Cataluňa</display-name>
     <icon src="//portal2.sms.cz/kategorie/televize/bmp/loga/velka/la1.png" />
     <url>http://www.m.tv.sms.cz</url>
   </channel>
@@ -15,8 +15,8 @@
     <icon src="https:http://static1.abc.es/assets/1.3.268/img/cadenas-tv/parrilla/413.png" />
     <url>http://www.laguiatv.abc.es</url>
   </channel>
-  <channel id="la2.es">
-    <display-name lang="cs">2 La 2 HD</display-name>
+  <channel id="La 2 Cataluňa">
+    <display-name lang="cs">La 2 Cataluňa</display-name>
     <icon src="//portal2.sms.cz/kategorie/televize/bmp/loga/velka/la2.png" />
     <url>http://www.m.tv.sms.cz</url>
   </channel>
@@ -974,194 +974,193 @@
     <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.(n)</desc>
     <icon src="https:https://static3.abc.es/media/programas/000/000/406/el-tiempo-1.jpg" />
   </programme>
-  <programme start="20200527060000 +0200" stop="20200527070000 +0200" channel="la1.es">
+  <programme start="20200527060000 +0200" stop="20200527070000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Noticias 24H</title>
     <desc lang="cs">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Espanola, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en Espana.(n)</desc>
   </programme>
-  <programme start="20200527070000 +0200" stop="20200527083000 +0200" channel="la1.es">
+  <programme start="20200527070000 +0200" stop="20200527083000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Telediario Matinal</title>
     <desc lang="cs">Sirun Demirjian conduce este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de Espana y de Europa y el estado de la mar. Lara Gandarillas presenta la información deportiva.(n)</desc>
     <date>2019</date>
   </programme>
-  <programme start="20200527083000 +0200" stop="20200527100000 +0200" channel="la1.es">
+  <programme start="20200527083000 +0200" stop="20200527100000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Los desayunos de TVE</title>
     <desc lang="cs">Xabier Fortes dirige y presenta este programa de análisis de la actualidad, entrevistas y tertulias. El espacio da cabida a las diversas opiniones que expresa su panel de comentaristas, representativo del más amplio abanico de sensibilidades. Dirige: Xabier Fortes.(n)</desc>
     <date>2019</date>
   </programme>
-  <programme start="20200527100000 +0200" stop="20200527130000 +0200" channel="la1.es">
+  <programme start="20200527100000 +0200" stop="20200527130000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">La manana de La 1</title>
     <title lang="cs">2019</title>
     <desc lang="cs">Dirige: Alfonso García,Víctor Otamendi.(n)</desc>
   </programme>
-  <programme start="20200527130000 +0200" stop="20200527140000 +0200" channel="la1.es">
+  <programme start="20200527130000 +0200" stop="20200527140000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Coronavirus última hora</title>
     <desc lang="cs">La información de última hora sobre la evolución y la expansión del coronavirus.(n)</desc>
     <date>2020</date>
   </programme>
-  <programme start="20200527140000 +0200" stop="20200527150000 +0200" channel="la1.es">
+  <programme start="20200527140000 +0200" stop="20200527150000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">L'Informatiu</title>
     <desc lang="cs">Els Serveis Informatius de TVE Catalunya ofereixen les notícies més importants d'arreu del món. L'edició del migdia, presentada de dilluns a divendres per Marta Ribas, ofereix l'actualitat política, económica, social, cultural, esportiva i meteorológica.(n)</desc>
   </programme>
-  <programme start="20200527150000 +0200" stop="20200527160000 +0200" channel="la1.es">
+  <programme start="20200527150000 +0200" stop="20200527160000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Telediario 1</title>
     <desc lang="cs">El noticiario audiovisual más veterano de la historia de la televisión en Espana. Ana Blanco conduce este espacio que ofrece un repaso diario a la actualidad general de Espana y el mundo, además de una sección dedicada al deporte presentada por Lourdes García Campos.(n)</desc>
   </programme>
-  <programme start="20200527160000 +0200" stop="20200527161500 +0200" channel="la1.es">
+  <programme start="20200527160000 +0200" stop="20200527161500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">L'Informatiu</title>
     <desc lang="cs">Els Serveis Informatius de TVE Catalunya ofereixen les notícies més importants d'arreu del món. L'edició del migdia, presentada de dilluns a divendres per Marta Ribas, ofereix l'actualitat política, económica, social, cultural, esportiva i meteorológica.(n)</desc>
   </programme>
-  <programme start="20200527161500 +0200" stop="20200527163000 +0200" channel="la1.es">
+  <programme start="20200527161500 +0200" stop="20200527163000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">El tiempo</title>
     <desc lang="cs">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual espanola. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.(n)</desc>
   </programme>
-  <programme start="20200527163000 +0200" stop="20200527172000 +0200" channel="la1.es">
+  <programme start="20200527163000 +0200" stop="20200527172000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Mercado central</title>
     <title lang="cs">2019</title>
     <desc lang="cs">Tras una inspección municipal, en el mercado tiene que haber una reconversión y no se considera viable que continúe con su actividad. Tras esa decisión se encuentra un importante fondo de inversores que quiere convertirlo en un lujoso centro comercial. La asociación de comerciantes del mercado consigue que el consistorio aplace la decisión: tendrán un ano para modernizar el recinto. Pero no todas las familias tienen la misma opinión, y prefieren aprovechar la oportunidad y obtener alguna.(n)</desc>
   </programme>
-  <programme start="20200527172000 +0200" stop="20200527175000 +0200" channel="la1.es">
+  <programme start="20200527172000 +0200" stop="20200527175000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Servir y proteger</title>
     <title lang="cs">2019</title>
     <desc lang="cs">Cuarta temporada de esta serie protagonizada por Alicia Ocana, una joven recién salida de la Academia de Policía que llega a la comisaría del barrio sur de Madrid. En esta nueva entrega, el apellido Soler sigue vinculado a los asuntos más turbios del barrio, que recibe a nuevos vecinos. Con una marcada presencia femenina en los personajes principales, esta serie policiaca aborda el día a día de una comisaría de barrio. Los casos que se investigan, pequenos o grandes en la escala criminal, no.(n)</desc>
   </programme>
-  <programme start="20200527175000 +0200" stop="20200527181500 +0200" channel="la1.es">
+  <programme start="20200527175000 +0200" stop="20200527181500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Acacias 38</title>
     <title lang="cs">2015</title>
     <desc lang="cs">Una historia de ricos y pobres que conviven en un único espacio, en un portal situado en el número 38 de la calle Acacias. Allí florecen sentimientos como el amor, los celos, las pasiones, las venganzas, los odios y la alegría. La familia Serna, los Álvarez- Hermoso, los Hidalgo, los Palacios, sus criadas y la gente del barrio pasan cada día por la puerta de esta escalera. Una telenovela espanola que se desarrolla entre finales del siglo XIX y principios del XX y que pretende contar la.(n)</desc>
   </programme>
-  <programme start="20200527181500 +0200" stop="20200527190500 +0200" channel="la1.es">
+  <programme start="20200527181500 +0200" stop="20200527190500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">El cazador</title>
     <title lang="cs">2020</title>
   </programme>
-  <programme start="20200527190500 +0200" stop="20200527203000 +0200" channel="la1.es">
+  <programme start="20200527190500 +0200" stop="20200527203000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Espana directo</title>
     <title lang="cs">2019</title>
     <desc lang="cs">Magacín informativo muy en contacto con los temas sociales que incluye conexiones con todos los rincones de la geografía nacional. El programa pretende acercarse al espectador gracias a la abundancia de intervenciones en directo y a la espontaneidad de sus reporteros.(n)</desc>
   </programme>
-  <programme start="20200527203000 +0200" stop="20200527210000 +0200" channel="la1.es">
+  <programme start="20200527203000 +0200" stop="20200527210000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Aquí la Tierra</title>
     <desc lang="cs">Quico Taronjí ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.(n)</desc>
     <date>2017</date>
   </programme>
-  <programme start="20200527210000 +0200" stop="20200527215200 +0200" channel="la1.es">
+  <programme start="20200527210000 +0200" stop="20200527215200 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Telediario 2</title>
     <desc lang="cs">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Carlos Franganillo. También hay espacio para la parcela deportiva presentada por Sergio Sauca.(n)</desc>
   </programme>
-  <programme start="20200527215200 +0200" stop="20200527220500 +0200" channel="la1.es">
+  <programme start="20200527215200 +0200" stop="20200527220500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">El tiempo</title>
     <desc lang="cs">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual espanola. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.(n)</desc>
   </programme>
-  <programme start="20200527220500 +0200" stop="20200527230500 +0200" channel="la1.es">
+  <programme start="20200527220500 +0200" stop="20200527230500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">El Ministerio del Tiempo</title>
     <desc lang="cs">Ano 1937. En un solo día, la Historia del Arte ha sido devastada. Las Meninas desaparecen en el traslado desde el Museo del Prado, huyendo de las bombas de la Guerra Civil. Y Picasso en París ni siquiera ha empezado a pintar el Guernica. El Ministerio interviene ante tan extrana coincidencia. Velázquez, Pacino e Irene viajan a un París brillante donde se encontrarán con Picasso, Dora Maar, Clara Campoamor y Josephine Baker. Julián y Lola se quedan en Madrid buscando Las Meninas en medio de.(n)</desc>
   </programme>
-  <programme start="20200527230500 +0200" stop="20200527235500 +0200" channel="la1.es">
+  <programme start="20200527230500 +0200" stop="20200527235500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Espanoles en el mundo</title>
     <title lang="cs">2019</title>
     <desc lang="cs">Programa que se acerca a destinos de todo el mundo a través de los espanoles que han decidido instalarse en otro país. Estos "nuevos emigrantes" ofrecen su particular punto de vista sobre el país que los ha acogido y explican sus anécdotas sobre cómo son sus vidas allí.(n)</desc>
   </programme>
-  <programme start="20200527235500 +0200" stop="20200528004600 +0200" channel="la1.es">
+  <programme start="20200527235500 +0200" stop="20200528004600 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Espanoles en el mundo</title>
   </programme>
-  <programme start="20200528004600 +0200" stop="20200528014000 +0200" channel="la1.es">
+  <programme start="20200528004600 +0200" stop="20200528014000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Espanoles en el mundo</title>
   </programme>
-  <programme start="20200528014000 +0200" stop="20200528032500 +0200" channel="la1.es">
+  <programme start="20200528014000 +0200" stop="20200528032500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">La noche en 24 horas</title>
     <desc lang="cs">Informativo diario nocturno presentado por Marc Sala que ofrece un análisis profundo y plural de la actualidad de la jornada. Dirige: Marc Sala.(n)</desc>
     <date>2018</date>
   </programme>
-  <programme start="20200528032500 +0200" stop="20200528060000 +0200" channel="la1.es">
+  <programme start="20200528032500 +0200" stop="20200528060000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Noticias 24H</title>
     <desc lang="cs">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Espanola, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en Espana.(n)</desc>
   </programme>
-  <programme start="20200528060000 +0200" stop="20200528070000 +0200" channel="la1.es">
+  <programme start="20200528060000 +0200" stop="20200528070000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Noticias 24H</title>
     <desc lang="cs">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Espanola, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en Espana.(n)</desc>
   </programme>
-  <programme start="20200528070000 +0200" stop="20200528083000 +0200" channel="la1.es">
+  <programme start="20200528070000 +0200" stop="20200528083000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Telediario Matinal</title>
     <desc lang="cs">Sirun Demirjian conduce este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de Espana y de Europa y el estado de la mar. Lara Gandarillas presenta la información deportiva.(n)</desc>
     <date>2019</date>
   </programme>
-  <programme start="20200528083000 +0200" stop="20200528100000 +0200" channel="la1.es">
+  <programme start="20200528083000 +0200" stop="20200528100000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Los desayunos de TVE</title>
     <desc lang="cs">Xabier Fortes dirige y presenta este programa de análisis de la actualidad, entrevistas y tertulias. El espacio da cabida a las diversas opiniones que expresa su panel de comentaristas, representativo del más amplio abanico de sensibilidades. Dirige: Xabier Fortes.(n)</desc>
     <date>2019</date>
   </programme>
-  <programme start="20200528100000 +0200" stop="20200528130000 +0200" channel="la1.es">
+  <programme start="20200528100000 +0200" stop="20200528130000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">La manana de La 1</title>
-    <title lang="cs">2019</title>
     <desc lang="cs">Dirige: Alfonso García,Víctor Otamendi.(n)</desc>
   </programme>
-  <programme start="20200528130000 +0200" stop="20200528140000 +0200" channel="la1.es">
+  <programme start="20200528130000 +0200" stop="20200528140000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Coronavirus última hora</title>
     <desc lang="cs">La información de última hora sobre la evolución y la expansión del coronavirus.(n)</desc>
     <date>2020</date>
   </programme>
-  <programme start="20200528140000 +0200" stop="20200528150000 +0200" channel="la1.es">
+  <programme start="20200528140000 +0200" stop="20200528150000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">L'Informatiu</title>
     <desc lang="cs">Els Serveis Informatius de TVE Catalunya ofereixen les notícies més importants d'arreu del món. L'edició del migdia, presentada de dilluns a divendres per Marta Ribas, ofereix l'actualitat política, económica, social, cultural, esportiva i meteorológica.(n)</desc>
   </programme>
-  <programme start="20200528150000 +0200" stop="20200528160000 +0200" channel="la1.es">
+  <programme start="20200528150000 +0200" stop="20200528160000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Telediario 1</title>
     <desc lang="cs">El noticiario audiovisual más veterano de la historia de la televisión en Espana. Ana Blanco conduce este espacio que ofrece un repaso diario a la actualidad general de Espana y el mundo, además de una sección dedicada al deporte presentada por Lourdes García Campos.(n)</desc>
   </programme>
-  <programme start="20200528160000 +0200" stop="20200528161500 +0200" channel="la1.es">
+  <programme start="20200528160000 +0200" stop="20200528161500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">L'Informatiu</title>
     <desc lang="cs">Els Serveis Informatius de TVE Catalunya ofereixen les notícies més importants d'arreu del món. L'edició del migdia, presentada de dilluns a divendres per Marta Ribas, ofereix l'actualitat política, económica, social, cultural, esportiva i meteorológica.(n)</desc>
   </programme>
-  <programme start="20200528161500 +0200" stop="20200528163000 +0200" channel="la1.es">
+  <programme start="20200528161500 +0200" stop="20200528163000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">El tiempo</title>
     <desc lang="cs">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual espanola. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.(n)</desc>
   </programme>
-  <programme start="20200528163000 +0200" stop="20200528172000 +0200" channel="la1.es">
+  <programme start="20200528163000 +0200" stop="20200528172000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Mercado central</title>
     <title lang="cs">2019</title>
     <desc lang="cs">Tras una inspección municipal, en el mercado tiene que haber una reconversión y no se considera viable que continúe con su actividad. Tras esa decisión se encuentra un importante fondo de inversores que quiere convertirlo en un lujoso centro comercial. La asociación de comerciantes del mercado consigue que el consistorio aplace la decisión: tendrán un ano para modernizar el recinto. Pero no todas las familias tienen la misma opinión, y prefieren aprovechar la oportunidad y obtener alguna.(n)</desc>
   </programme>
-  <programme start="20200528172000 +0200" stop="20200528175000 +0200" channel="la1.es">
+  <programme start="20200528172000 +0200" stop="20200528175000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Servir y proteger</title>
     <title lang="cs">2019</title>
     <desc lang="cs">Cuarta temporada de esta serie protagonizada por Alicia Ocana, una joven recién salida de la Academia de Policía que llega a la comisaría del barrio sur de Madrid. En esta nueva entrega, el apellido Soler sigue vinculado a los asuntos más turbios del barrio, que recibe a nuevos vecinos. Con una marcada presencia femenina en los personajes principales, esta serie policiaca aborda el día a día de una comisaría de barrio. Los casos que se investigan, pequenos o grandes en la escala criminal, no.(n)</desc>
   </programme>
-  <programme start="20200528175000 +0200" stop="20200528181500 +0200" channel="la1.es">
+  <programme start="20200528175000 +0200" stop="20200528181500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Acacias 38</title>
     <title lang="cs">2015</title>
     <desc lang="cs">Una historia de ricos y pobres que conviven en un único espacio, en un portal situado en el número 38 de la calle Acacias. Allí florecen sentimientos como el amor, los celos, las pasiones, las venganzas, los odios y la alegría. La familia Serna, los Álvarez- Hermoso, los Hidalgo, los Palacios, sus criadas y la gente del barrio pasan cada día por la puerta de esta escalera. Una telenovela espanola que se desarrolla entre finales del siglo XIX y principios del XX y que pretende contar la.(n)</desc>
   </programme>
-  <programme start="20200528181500 +0200" stop="20200528190500 +0200" channel="la1.es">
+  <programme start="20200528181500 +0200" stop="20200528190500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">El cazador</title>
     <title lang="cs">2020</title>
   </programme>
-  <programme start="20200528190500 +0200" stop="20200528203000 +0200" channel="la1.es">
+  <programme start="20200528190500 +0200" stop="20200528203000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Espana directo</title>
     <title lang="cs">2019</title>
     <desc lang="cs">Magacín informativo muy en contacto con los temas sociales que incluye conexiones con todos los rincones de la geografía nacional. El programa pretende acercarse al espectador gracias a la abundancia de intervenciones en directo y a la espontaneidad de sus reporteros.(n)</desc>
   </programme>
-  <programme start="20200528203000 +0200" stop="20200528210000 +0200" channel="la1.es">
+  <programme start="20200528203000 +0200" stop="20200528210000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Aquí la Tierra</title>
     <desc lang="cs">Quico Taronjí ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.(n)</desc>
     <date>2017</date>
   </programme>
-  <programme start="20200528210000 +0200" stop="20200528215200 +0200" channel="la1.es">
+  <programme start="20200528210000 +0200" stop="20200528215200 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Telediario 2</title>
     <desc lang="cs">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Carlos Franganillo. También hay espacio para la parcela deportiva presentada por Sergio Sauca.(n)</desc>
   </programme>
-  <programme start="20200528215200 +0200" stop="20200528220500 +0200" channel="la1.es">
+  <programme start="20200528215200 +0200" stop="20200528220500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">El tiempo</title>
     <desc lang="cs">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual espanola. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.(n)</desc>
   </programme>
-  <programme start="20200528220500 +0200" stop="20200529005500 +0200" channel="la1.es">
+  <programme start="20200528220500 +0200" stop="20200529005500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Operación triunfo</title>
     <title lang="cs">2020</title>
+    <desc lang="cs">Llega la recta final de "Operación Triunfo". El talent vivirá grandes momentos destacados: la despedida de uno de los dos nominados, Bruno o Flavio; la elección de los tres primeros finalistas; la actuación de Pablo López y el regreso de Eli Rosex y Nick Maylo.(n)</desc>
   </programme>
-  <programme start="20200529005500 +0200" stop="20200529022000 +0200" channel="la1.es">
+  <programme start="20200529005500 +0200" stop="20200529022000 +0200" channel="La 1 Cataluňa">
     <title lang="cs">Operación Triunfo: el chat</title>
-    <desc lang="cs">Espacio semanal que recoge las primeras impresiones de los concursantes tras la gala. Además, los espectadores tendrán la oportunidad de comunicarse con los aspirantes a cantantes a través de mensajes de texto.(n)</desc>
-    <date>2020</date>
+    <desc lang="cs">Espacio semanal que recoge las primeras impresiones de los concursantes tras la gala. Además, los es..(n)</desc>
   </programme>
-  <programme start="20200529022000 +0200" stop="20200529040500 +0200" channel="la1.es">
+  <programme start="20200529022000 +0200" stop="20200529040500 +0200" channel="La 1 Cataluňa">
     <title lang="cs">La noche en 24 horas</title>
     <desc lang="cs">Informativo diario nocturno presentado por Marc Sala que ofrece un análisis profundo y plural de la actualidad de la jornada. Dirige: Marc Sala.(n)</desc>
     <date>2018</date>
@@ -2020,66 +2019,66 @@
     <category lang="es">Programa</category>
     <icon src="https:https://static3.abc.es/media/programas/000/078/606/rudolf-hasler-1.jpg" />
   </programme>
-  <programme start="20200527053000 +0200" stop="20200527054000 +0200" channel="la2.es">
+  <programme start="20200527053000 +0200" stop="20200527054000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">El Color: El Espectro De La Ciencia</title>
     <title lang="cs">Colours of Earth</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200527054000 +0200" stop="20200527060000 +0200" channel="la2.es">
+  <programme start="20200527054000 +0200" stop="20200527060000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">El Color: El Espectro De La Ciencia</title>
     <title lang="cs">Colours Of Life</title>
     <desc lang="cs">Comprender los mecanismos ocultos del color es descubrir los procesos fundamentales que se desarrollan en todo ser vivo. Helen Czerski saldrá en busca de los colores que han ayudado a propagar la vida por toda la Tierra y han dado colorido a nuestro planeta.(n)</desc>
   </programme>
-  <programme start="20200527060000 +0200" stop="20200527063000 +0200" channel="la2.es">
+  <programme start="20200527060000 +0200" stop="20200527063000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documenta2</title>
     <desc lang="cs">Espacio que ofrece a los espectadores la oportunidad de disfrutar de diferentes documentales internacionales especializados en los diversos ámbitos de la divulgación histórica, científica y cultural, entre otros campos.(n)</desc>
   </programme>
-  <programme start="20200527063000 +0200" stop="20200527065500 +0200" channel="la2.es">
+  <programme start="20200527063000 +0200" stop="20200527065500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">That's English</title>
     <title lang="cs">2019</title>
   </programme>
-  <programme start="20200527065500 +0200" stop="20200527070000 +0200" channel="la2.es">
+  <programme start="20200527065500 +0200" stop="20200527070000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">La 2 Exprés</title>
     <title lang="cs">La 2 Noticias Exprés</title>
     <desc lang="cs">Una versión resumida del informativo de La 2 que sirve para cerrar el día con las informaciones y las imágenes más impotantes de la jornada. Eso sí, con el sello del veterano espacio del canal público, en el que predominan temas sociales, ecología y nuevas tecnologías.(n)</desc>
   </programme>
-  <programme start="20200527070000 +0200" stop="20200527073000 +0200" channel="la2.es">
+  <programme start="20200527070000 +0200" stop="20200527073000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">80 cm</title>
     <title lang="cs">2020</title>
   </programme>
-  <programme start="20200527073000 +0200" stop="20200527080000 +0200" channel="la2.es">
+  <programme start="20200527073000 +0200" stop="20200527080000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Inglés Online</title>
     <title lang="cs">TVE</title>
     <desc lang="cs">Inglés Online.(n)</desc>
     <date>2020</date>
   </programme>
-  <programme start="20200527080000 +0200" stop="20200527085000 +0200" channel="la2.es">
+  <programme start="20200527080000 +0200" stop="20200527085000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200527085000 +0200" stop="20200527090000 +0200" channel="la2.es">
+  <programme start="20200527085000 +0200" stop="20200527090000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">La 2 Exprés</title>
     <title lang="cs">La 2 Noticias Exprés</title>
     <desc lang="cs">Una versión resumida del informativo de La 2 que sirve para cerrar el día con las informaciones y las imágenes más impotantes de la jornada. Eso sí, con el sello del veterano espacio del canal público, en el que predominan temas sociales, ecología y nuevas tecnologías.(n)</desc>
   </programme>
-  <programme start="20200527090000 +0200" stop="20200527093000 +0200" channel="la2.es">
+  <programme start="20200527090000 +0200" stop="20200527093000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Muévete en casa</title>
     <title lang="cs">2020</title>
   </programme>
-  <programme start="20200527093000 +0200" stop="20200527113000 +0200" channel="la2.es">
+  <programme start="20200527093000 +0200" stop="20200527113000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Aprendemos en casa 12-14 anos</title>
     <title lang="cs">2020</title>
   </programme>
-  <programme start="20200527113000 +0200" stop="20200527113500 +0200" channel="la2.es">
+  <programme start="20200527113000 +0200" stop="20200527113500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">La 2 Exprés</title>
     <title lang="cs">La 2 Noticias Exprés</title>
     <desc lang="cs">Una versión resumida del informativo de La 2 que sirve para cerrar el día con las informaciones y las imágenes más impotantes de la jornada. Eso sí, con el sello del veterano espacio del canal público, en el que predominan temas sociales, ecología y nuevas tecnologías.(n)</desc>
   </programme>
-  <programme start="20200527113500 +0200" stop="20200527123500 +0200" channel="la2.es">
+  <programme start="20200527113500 +0200" stop="20200527123500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200527123500 +0200" stop="20200527140500 +0200" channel="la2.es">
+  <programme start="20200527123500 +0200" stop="20200527140500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">La Balada de Johnny Ringo</title>
     <desc lang="cs">El pistolero Johnny Ringo y sus hombres son cercados en un rancho. Durante la refriega, éste se ince..(n)</desc>
     <credits>
@@ -2092,50 +2091,50 @@
     <category lang="cs">western</category>
     <country lang="cs">Špa.</country>
   </programme>
-  <programme start="20200527140500 +0200" stop="20200527150000 +0200" channel="la2.es">
+  <programme start="20200527140500 +0200" stop="20200527150000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200527150000 +0200" stop="20200527154500 +0200" channel="la2.es">
+  <programme start="20200527150000 +0200" stop="20200527154500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200527154500 +0200" stop="20200527163000 +0200" channel="la2.es">
+  <programme start="20200527154500 +0200" stop="20200527163000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Saber y ganar</title>
     <title lang="cs">2020</title>
     <desc lang="cs">Dirige: Sergi Schaaff.(n)</desc>
   </programme>
-  <programme start="20200527163000 +0200" stop="20200527181000 +0200" channel="la2.es">
+  <programme start="20200527163000 +0200" stop="20200527181000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Grandes documentales</title>
     <desc lang="cs">Programa divulgativo que aprovecha la hora de la sobremesa para viajar a los confines del mundo y observar con detenimiento la diversa vida natural que brinda el planeta Tierra. Para ello, se emiten series documentales de televisiones y productoras de todo el mundo.(n)</desc>
   </programme>
-  <programme start="20200527181000 +0200" stop="20200527190000 +0200" channel="la2.es">
+  <programme start="20200527181000 +0200" stop="20200527190000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Noms propis Connectats</title>
     <title lang="cs">2019</title>
     <desc lang="cs">La periodista Anna Cler busca convidats coneguts per al públic que transmetin optimisme pel seu estil de vida. Actors, escriptors i psicólegs, entre d'altres, donen el seu particular punt de vista en aquest programa que es realitza a través de videotrucades.(n)</desc>
   </programme>
-  <programme start="20200527190000 +0200" stop="20200527195000 +0200" channel="la2.es">
+  <programme start="20200527190000 +0200" stop="20200527195000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200527195000 +0200" stop="20200527200000 +0200" channel="la2.es">
+  <programme start="20200527195000 +0200" stop="20200527200000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">La 2 Exprés</title>
     <title lang="cs">La 2 Noticias Exprés</title>
     <desc lang="cs">Una versión resumida del informativo de La 2 que sirve para cerrar el día con las informaciones y las imágenes más impotantes de la jornada. Eso sí, con el sello del veterano espacio del canal público, en el que predominan temas sociales, ecología y nuevas tecnologías.(n)</desc>
   </programme>
-  <programme start="20200527200000 +0200" stop="20200527203500 +0200" channel="la2.es">
+  <programme start="20200527200000 +0200" stop="20200527203500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Página 2</title>
     <title lang="cs">2019</title>
   </programme>
-  <programme start="20200527203500 +0200" stop="20200527210000 +0200" channel="la2.es">
+  <programme start="20200527203500 +0200" stop="20200527210000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200527210000 +0200" stop="20200527220000 +0200" channel="la2.es">
+  <programme start="20200527210000 +0200" stop="20200527220000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200527220000 +0200" stop="20200528004000 +0200" channel="la2.es">
+  <programme start="20200527220000 +0200" stop="20200528004000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">El puente sobre el río Kwai</title>
     <title lang="cs">The Bridge on the River Kwai</title>
     <desc lang="cs">V zajateckém táboře v době II. světové války je skupina britských zajatců nucena stavět strategický železniční most přes řeku Kwai pro své japonské věznitele. O mostě, který by pomohl Japoncům zásobovat odříznutá území, se dozvěděli Američané a rozhodnou se jej zničit.(n)</desc>
@@ -2151,82 +2150,82 @@
     <icon src="//www.sms.cz/~tri65dnigalerie/porad_booklet/600/0/08ffdc565365ed79875e625e49ea92f2.jpg" />
     <country lang="cs">VB</country>
   </programme>
-  <programme start="20200528004000 +0200" stop="20200528014000 +0200" channel="la2.es">
+  <programme start="20200528004000 +0200" stop="20200528014000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Cachitos de hierro y cromo</title>
     <title lang="cs">2020</title>
     <desc lang="cs">La presentadora Virginia Díaz se sumerge en el archivo de RTVE para rescatar peculiares momentos de la música en televisión. Como novedad, esta octava edición del veterano programa incluye entregas dedicadas, por ejemplo, a los própositos de ano nuevo.(n)</desc>
   </programme>
-  <programme start="20200528014000 +0200" stop="20200528021500 +0200" channel="la2.es">
+  <programme start="20200528014000 +0200" stop="20200528021500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Conciertos de Radio-3</title>
     <title lang="cs">Los conciertos de Radio 3</title>
     <desc lang="cs">Dirige: Tomás Fernando Flores.(n)</desc>
     <date>2019</date>
   </programme>
-  <programme start="20200528021500 +0200" stop="20200528030000 +0200" channel="la2.es">
+  <programme start="20200528021500 +0200" stop="20200528030000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documenta2</title>
     <desc lang="cs">Espacio que ofrece a los espectadores la oportunidad de disfrutar de diferentes documentales internacionales especializados en los diversos ámbitos de la divulgación histórica, científica y cultural, entre otros campos.(n)</desc>
   </programme>
-  <programme start="20200528030000 +0200" stop="20200528040000 +0200" channel="la2.es">
+  <programme start="20200528030000 +0200" stop="20200528040000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200528040000 +0200" stop="20200528045000 +0200" channel="la2.es">
+  <programme start="20200528040000 +0200" stop="20200528045000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200528045000 +0200" stop="20200528054000 +0200" channel="la2.es">
+  <programme start="20200528045000 +0200" stop="20200528054000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200528054000 +0200" stop="20200528060000 +0200" channel="la2.es">
+  <programme start="20200528054000 +0200" stop="20200528060000 +0200" channel="La 2 Cataluňa">
+    <title lang="cs">Documenta2</title>
+    <desc lang="cs">Espacio que ofrece a los espectadores la oportunidad de disfrutar de diferentes documentales interna..(n)</desc>
+  </programme>
+  <programme start="20200528060000 +0200" stop="20200528063000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documenta2</title>
     <desc lang="cs">Espacio que ofrece a los espectadores la oportunidad de disfrutar de diferentes documentales internacionales especializados en los diversos ámbitos de la divulgación histórica, científica y cultural, entre otros campos.(n)</desc>
   </programme>
-  <programme start="20200528060000 +0200" stop="20200528063000 +0200" channel="la2.es">
-    <title lang="cs">Documenta2</title>
-    <desc lang="cs">Espacio que ofrece a los espectadores la oportunidad de disfrutar de diferentes documentales internacionales especializados en los diversos ámbitos de la divulgación histórica, científica y cultural, entre otros campos.(n)</desc>
-  </programme>
-  <programme start="20200528063000 +0200" stop="20200528070000 +0200" channel="la2.es">
+  <programme start="20200528063000 +0200" stop="20200528070000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">That's English</title>
     <title lang="cs">2019</title>
   </programme>
-  <programme start="20200528070000 +0200" stop="20200528073000 +0200" channel="la2.es">
+  <programme start="20200528070000 +0200" stop="20200528073000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Activa-2</title>
     <title lang="cs">2020</title>
     <desc lang="cs">Programa que anima al espectador a llevar una vida sana basada en el movimiento, el deporte, la nutrición y la diversión. Habla de las últimas tendencias deportivas, yoga, mindfullness o turismo deportivo y ofrece consejos para entrenar o para alimentarse bien.(n)</desc>
   </programme>
-  <programme start="20200528073000 +0200" stop="20200528075500 +0200" channel="la2.es">
+  <programme start="20200528073000 +0200" stop="20200528075500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Inglés Online</title>
     <title lang="cs">TVE</title>
     <desc lang="cs">Inglés Online.(n)</desc>
     <date>2020</date>
   </programme>
-  <programme start="20200528075500 +0200" stop="20200528085000 +0200" channel="la2.es">
+  <programme start="20200528075500 +0200" stop="20200528085000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200528085000 +0200" stop="20200528090000 +0200" channel="la2.es">
+  <programme start="20200528085000 +0200" stop="20200528090000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">La 2 Exprés</title>
     <title lang="cs">La 2 Noticias Exprés</title>
     <desc lang="cs">Una versión resumida del informativo de La 2 que sirve para cerrar el día con las informaciones y las imágenes más impotantes de la jornada. Eso sí, con el sello del veterano espacio del canal público, en el que predominan temas sociales, ecología y nuevas tecnologías.(n)</desc>
   </programme>
-  <programme start="20200528090000 +0200" stop="20200528093000 +0200" channel="la2.es">
+  <programme start="20200528090000 +0200" stop="20200528093000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Muévete en casa</title>
     <title lang="cs">2020</title>
   </programme>
-  <programme start="20200528093000 +0200" stop="20200528103000 +0200" channel="la2.es">
+  <programme start="20200528093000 +0200" stop="20200528103000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Aprendemos en casa 12-14 anos</title>
     <title lang="cs">2020</title>
   </programme>
-  <programme start="20200528103000 +0200" stop="20200528113000 +0200" channel="la2.es">
+  <programme start="20200528103000 +0200" stop="20200528113000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Aprendemos en casa 14-16 anos</title>
     <title lang="cs">2020</title>
   </programme>
-  <programme start="20200528113000 +0200" stop="20200528122000 +0200" channel="la2.es">
+  <programme start="20200528113000 +0200" stop="20200528122000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200528122000 +0200" stop="20200528141500 +0200" channel="la2.es">
+  <programme start="20200528122000 +0200" stop="20200528141500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">El día de la ira</title>
     <desc lang="cs">En un lugar perdido en el Oeste americano, un hombre es obligado a realizar las peores tareas, debid..(n)</desc>
     <credits>
@@ -2239,74 +2238,74 @@
     <category lang="cs">western</category>
     <country lang="cs">Itá.</country>
   </programme>
-  <programme start="20200528141500 +0200" stop="20200528150500 +0200" channel="la2.es">
+  <programme start="20200528141500 +0200" stop="20200528150500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200528150500 +0200" stop="20200528154500 +0200" channel="la2.es">
+  <programme start="20200528150500 +0200" stop="20200528154500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200528154500 +0200" stop="20200528163000 +0200" channel="la2.es">
+  <programme start="20200528154500 +0200" stop="20200528163000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Saber y ganar</title>
     <title lang="cs">2020</title>
     <desc lang="cs">Dirige: Sergi Schaaff.(n)</desc>
   </programme>
-  <programme start="20200528163000 +0200" stop="20200528181000 +0200" channel="la2.es">
+  <programme start="20200528163000 +0200" stop="20200528181000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Grandes documentales</title>
     <desc lang="cs">Programa divulgativo que aprovecha la hora de la sobremesa para viajar a los confines del mundo y observar con detenimiento la diversa vida natural que brinda el planeta Tierra. Para ello, se emiten series documentales de televisiones y productoras de todo el mundo.(n)</desc>
   </programme>
-  <programme start="20200528181000 +0200" stop="20200528183500 +0200" channel="la2.es">
+  <programme start="20200528181000 +0200" stop="20200528183500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">La meva mascota i jo</title>
     <title lang="cs">2018</title>
     <desc lang="cs">Espai dedicat als animals de companyia, amb čmfasi a les associacions i entitats que es dediquen a la seva protecció i cura. El programa, a més, dóna veu a personatges coneguts, que s'encarreguen de presentar la seva mascota i explicar quč representa per ells.(n)</desc>
   </programme>
-  <programme start="20200528183500 +0200" stop="20200528190000 +0200" channel="la2.es">
+  <programme start="20200528183500 +0200" stop="20200528190000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Bany compartit</title>
     <title lang="cs">2019</title>
     <desc lang="cs">Quatre joves estudiants -una valenciana, una catalana, una mallorquina i una estudiant d'Erasmus alemanya- comparteixen pis a la ciutat. El bany és el punt de trobada diari de les joves, que tot i que són força diverses, acabaran construint una amistat ben forta. Carol Rodríguez "Raval, pla de fugida" i Ŕurea Martínez "Vientos de agua" són les creadores d'aquesta comčdia de situació la principal particularitat de la qual és que estŕ rodada íntegrament en una cambra de bany. Les joves.(n)</desc>
   </programme>
-  <programme start="20200528190000 +0200" stop="20200528195500 +0200" channel="la2.es">
+  <programme start="20200528190000 +0200" stop="20200528195500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200528195500 +0200" stop="20200528202500 +0200" channel="la2.es">
+  <programme start="20200528195500 +0200" stop="20200528202500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Arqueomanía</title>
     <title lang="cs">2020</title>
-    <desc lang="cs">La geografía espanola alberga algunos de los más preciados tesoros arqueológicos e históricos. Esta serie documental visita en cada entrega un yacimiento de la Península, con las aportaciones de diversos expertos y sin dejar de lado su contexto histórico y cultural.(n)</desc>
+    <desc lang="cs">Dirige: Manuel Pimentel.(n)</desc>
   </programme>
-  <programme start="20200528202500 +0200" stop="20200528210000 +0200" channel="la2.es">
+  <programme start="20200528202500 +0200" stop="20200528210000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200528210000 +0200" stop="20200528233500 +0200" channel="la2.es">
+  <programme start="20200528210000 +0200" stop="20200528233500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200528233500 +0200" stop="20200529002000 +0200" channel="la2.es">
+  <programme start="20200528233500 +0200" stop="20200529002000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">En portada</title>
     <title lang="cs">2019</title>
-    <desc lang="cs">Espacio que ofrece reportajes internacionales sobre situaciones conflictivas que sufren determinados países. "En portada" es uno de los programas más veteranos de la cadena y su calidad se ha visto recompensada con numerosos premios nacionales e internacionales.(n)</desc>
+    <desc lang="cs">Dirige: José Antonio Guardiola.(n)</desc>
   </programme>
-  <programme start="20200529002000 +0200" stop="20200529015000 +0200" channel="la2.es">
+  <programme start="20200529002000 +0200" stop="20200529015000 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200529015000 +0200" stop="20200529021500 +0200" channel="la2.es">
+  <programme start="20200529015000 +0200" stop="20200529021500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Conciertos de Radio-3</title>
     <title lang="cs">Los conciertos de Radio 3</title>
     <desc lang="cs">Dirige: Tomás Fernando Flores.(n)</desc>
     <date>2019</date>
   </programme>
-  <programme start="20200529021500 +0200" stop="20200529030500 +0200" channel="la2.es">
+  <programme start="20200529021500 +0200" stop="20200529030500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documenta2</title>
     <desc lang="cs">Espacio que ofrece a los espectadores la oportunidad de disfrutar de diferentes documentales internacionales especializados en los diversos ámbitos de la divulgación histórica, científica y cultural, entre otros campos.(n)</desc>
   </programme>
-  <programme start="20200529030500 +0200" stop="20200529040500 +0200" channel="la2.es">
+  <programme start="20200529030500 +0200" stop="20200529040500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
-  <programme start="20200529040500 +0200" stop="20200529045500 +0200" channel="la2.es">
+  <programme start="20200529040500 +0200" stop="20200529045500 +0200" channel="La 2 Cataluňa">
     <title lang="cs">Documental</title>
     <desc lang="cs">Espacio que incluye la emisión de un documental.(n)</desc>
   </programme>
