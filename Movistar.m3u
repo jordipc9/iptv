@@ -30,6 +30,9 @@ rtp://@239.0.5.197:8208
 #EXTINF:-1, tvg-id="TV3 CAT" tvg-logo="https://pngimage.net/wp-content/uploads/2018/06/tv3-logo-png-3.png" tvg-name="9 TV3 HD"  group-title="Generalistes",9 TV3 HD
 rtp://@239.0.5.186:8208
 
+#EXTINF:-1,[010] 8tv *
+rtp://@239.0.0.82:8208
+
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="11 Movistar Series HD"  group-title="Series",11 Movistar Series HD
 rtp://@239.0.5.250:8208
 
@@ -66,11 +69,17 @@ rtp://@239.0.5.79:8208
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="22 Syfy HD"  group-title="Series",22 Syfy HD
 rtp://@239.0.5.75:8208
 
+#EXTINF:-1,[024] MTV España
+rtp://@239.0.0.211:8208
+
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="26 Neox HD"  group-title="Series",26 Neox HD
 rtp://@239.0.5.207:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="27 Atreseries HD"  group-title="Series",27 Atreseries HD
 rtp://@239.0.0.190:8208
+
+#EXTINF:-1,[028] Energy
+rtp://@239.0.0.59:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="30 Movistar Estrenos HD"  group-title="Pel·lícules",30 Movistar Estrenos HD
 rtp://@239.0.5.111:8208
@@ -98,6 +107,15 @@ rtp://@239.0.5.89:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="38 Hollywood HD"  group-title="Pel·lícules",38 Hollywood HD
 rtp://@239.0.5.76:8208
+
+#EXTINF:-1,[041] 13 TV
+rtp://@239.0.0.91:8208
+
+#EXTINF:-1,[042] Ten
+rtp://@239.0.0.34:8208
+
+#EXTINF:-1,[043] Paramount Network
+rtp://@239.0.0.90:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="44 DEPORTES HD"  group-title="Esports",44 DEPORTES HD
 rtp://@239.0.0.180:8208
@@ -147,6 +165,9 @@ rtp://@239.0.0.178:8208
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="59 Movistar Golf HD"  group-title="Esports",59 Movistar Golf HD
 rtp://@239.0.5.249:8208
 
+#EXTINF:-1, [060] #Vamos Bar
+rtp://@239.0.6.8:8208
+
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="61 Eurosport 1 HD"  group-title="Esports",61 Eurosport 1 HD
 rtp://@239.0.9.135:8208
 
@@ -170,6 +191,9 @@ rtp://@239.0.5.78:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="71 Nat Geo Wild HD"  group-title="Documentals",71 Nat Geo Wild HD
 rtp://@239.0.9.136:8208
+
+#EXTINF:-1,[072] Historia
+rtp://@239.0.0.19:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="73 Discovery Channel HD"  group-title="Documentals",73 Discovery Channel HD
 rtp://@239.0.5.77:8208
@@ -200,3 +224,15 @@ rtp://@239.0.0.173:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="98 Clan TVE HD"  group-title="Infantils",98 Clan TVE HD
 rtp://@239.0.0.184:8208
+
+#EXTINF:-1,[156] Super 3 / 33
+rtp://@239.0.0.24:8208
+
+#EXTINF:-1,[157] Esport3
+rtp://@239.0.0.51:8208
+
+#EXTINF:-1,[158] 3/24
+rtp://@239.0.0.61:8208
+
+#EXTINF:-1,[160] betevé
+rtp://@239.0.0.110:8208
