@@ -165,8 +165,8 @@ rtp://@239.0.0.178:8208
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="59 Movistar Golf HD"  group-title="Esports",59 Movistar Golf HD
 rtp://@239.0.5.249:8208
 
-#EXTINF:-1, [060] #Vamos Bar
-rtp://@239.0.6.8:8208
+#EXTINF:-1, [060] #Vamos Bar HD
+rtp://@239.0.6.14:8208
 
 #EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="61 Eurosport 1 HD"  group-title="Esports",61 Eurosport 1 HD
 rtp://@239.0.9.135:8208
