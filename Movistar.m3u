@@ -30,6 +30,9 @@ rtp://@239.0.5.197:8208
 #EXTINF:-1, tvg-id="TV3 CAT" tvg-logo="https://pngimage.net/wp-content/uploads/2018/06/tv3-logo-png-3.png" tvg-name="9 TV3 HD"  group-title="Generalistes",[009] TV3 HD
 rtp://@239.0.5.186:8208
 
+#EXTINF:-1,tvg-id="teve.cat",[009a] teve.cat
+http://photocall.tv/cG5n/l1?ch=tevecat
+
 #EXTINF:-1,tvg-id="8tv",[010] 8tv
 rtp://@239.0.0.82:8208
 
