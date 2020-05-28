@@ -27,13 +27,13 @@ rtp://@239.0.5.187:8208
 #EXTINF:-1, tvg-id="vamos.es" tvg-logo="" tvg-name="8 #Vamos HD"  group-title="Esports",[008] #Vamos HD
 rtp://@239.0.5.197:8208
 
-#EXTINF:-1, tvg-id="TV3 CAT" tvg-logo="https://pngimage.net/wp-content/uploads/2018/06/tv3-logo-png-3.png" tvg-name="9 TV3 HD"  group-title="Generalistes",[009] TV3 HD
+#EXTINF:-1, tvg-id="TV3 CAT" tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/tv3.png" tvg-name="9 TV3 HD"  group-title="Generalistes",[009] TV3 HD
 rtp://@239.0.5.186:8208
 
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/teve.cat/picture?width=200&height=200" group-title="Cataluña" tvg-name="teve.cat",teve.cat
 https://www.tdtchannels.com/stream/tevecat.m3u8
 
-#EXTINF:-1,tvg-id="8tv",[010] 8tv
+#EXTINF:-1, tvg-id="8tv" tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/8tv.png",[010] 8tv
 rtp://@239.0.0.82:8208
 
 #EXTINF:-1, tvg-id="movistarseries.es" tvg-logo="Logo N/A" tvg-name="11 Movistar Series HD"  group-title="Series",[011] Movistar Series HD
@@ -336,10 +336,10 @@ rtp://@239.0.0.60:8208
 #EXTINF:-1,[155] Aragón TV Int
 rtp://@239.0.0.81:8208
 
-#EXTINF:-1,[156] Super 3 / 33
+#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/super333.png",[156] Super 3 / 33
 rtp://@239.0.0.24:8208
 
-#EXTINF:-1,[157] Esport3
+#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/esport3.png",[157] Esport3
 rtp://@239.0.0.51:8208
 
 #EXTINF:-1,[158] 3/24
