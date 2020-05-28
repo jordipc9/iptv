@@ -31,7 +31,7 @@ rtp://@239.0.5.197:8208
 rtp://@239.0.5.186:8208
 
 #EXTINF:-1,tvg-id="teve.cat",[009a] teve.cat
-http://photocall.tv/cG5n/l1?ch=tevecat
+https://www.tdtchannels.com/stream/tevecat.m3u8
 
 #EXTINF:-1,tvg-id="8tv",[010] 8tv
 rtp://@239.0.0.82:8208
