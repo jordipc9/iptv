@@ -30,43 +30,43 @@ rtp://@239.0.5.197:8208
 #EXTINF:-1, tvg-id="TV3 CAT" tvg-logo="https://pngimage.net/wp-content/uploads/2018/06/tv3-logo-png-3.png" tvg-name="9 TV3 HD"  group-title="Generalistes",[009] TV3 HD
 rtp://@239.0.5.186:8208
 
-#EXTINF:-1,[010] 8tv
+#EXTINF:-1,tvg-id="8tv",[010] 8tv
 rtp://@239.0.0.82:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="11 Movistar Series HD"  group-title="Series",[011] Movistar Series HD
+#EXTINF:-1, tvg-id="movistarseries.es" tvg-logo="Logo N/A" tvg-name="11 Movistar Series HD"  group-title="Series",[011] Movistar Series HD
 rtp://@239.0.5.250:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="12 Movistar Seriesmanía HD"  group-title="Series",[012] Movistar Seriesmanía HD
+#EXTINF:-1, tvg-id="mseriesmania" tvg-logo="Logo N/A" tvg-name="12 Movistar Seriesmanía HD"  group-title="Series",[012] Movistar Seriesmanía HD
 rtp://@239.0.5.83:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="13 FOX HD"  group-title="Series",[013] FOX HD
+#EXTINF:-1, tvg-id="fox.es" tvg-logo="Logo N/A" tvg-name="13 FOX HD"  group-title="Series",[013] FOX HD
 rtp://@239.0.9.134:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="14 AXN HD"  group-title="Series",[014] AXN HD
+#EXTINF:-1, tvg-id="axn.es" tvg-logo="Logo N/A" tvg-name="14 AXN HD"  group-title="Series",[014] AXN HD
 rtp://@239.0.9.131:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="15 TNT HD"  group-title="Series",[015] TNT HD
+#EXTINF:-1, tvg-id="tnt.es" tvg-logo="Logo N/A" tvg-name="15 TNT HD"  group-title="Series",[015] TNT HD
 rtp://@239.0.5.87:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="16 Comedy Central HD"  group-title="Series",[016] Comedy Central HD
+#EXTINF:-1, tvg-id="comedycentral.es" tvg-logo="Logo N/A" tvg-name="16 Comedy Central HD"  group-title="Series",[016] Comedy Central HD
 rtp://@239.0.0.174:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="17 Calle 13 HD"  group-title="Pel·lícules",[017] Calle 13 HD
+#EXTINF:-1, tvg-id="calle13.es" tvg-logo="Logo N/A" tvg-name="17 Calle 13 HD"  group-title="Pel·lícules",[017] Calle 13 HD
 rtp://@239.0.5.74:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="18 COSMO HD"  group-title="Pel·lícules",[018] COSMO HD
+#EXTINF:-1, tvg-id="cosmo.es" tvg-logo="Logo N/A" tvg-name="18 COSMO HD"  group-title="Pel·lícules",[018] COSMO HD
 rtp://@239.0.5.71:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="19 AMC HD"  group-title="Pel·lícules",[019] AMC HD
+#EXTINF:-1, tvg-id="amc.es" tvg-logo="Logo N/A" tvg-name="19 AMC HD"  group-title="Pel·lícules",[019] AMC HD
 rtp://@239.0.9.132:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="20 FOX life HD"  group-title="Series",[020] FOX life HD
+#EXTINF:-1, tvg-id="foxlife.es" tvg-logo="Logo N/A" tvg-name="20 FOX life HD"  group-title="Series",[020] FOX life HD
 rtp://@239.0.0.165:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="21 AXN White HD"  group-title="Series",[021] AXN White HD
+#EXTINF:-1, tvg-id="axnwhite.es" tvg-logo="Logo N/A" tvg-name="21 AXN White HD"  group-title="Series",[021] AXN White HD
 rtp://@239.0.5.79:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="22 Syfy HD"  group-title="Series",[022] Syfy HD
+#EXTINF:-1, tvg-id="syfy.es" tvg-logo="Logo N/A" tvg-name="22 Syfy HD"  group-title="Series",[022] Syfy HD
 rtp://@239.0.5.75:8208
 
 #EXTINF:-1,[024] MTV España
@@ -81,31 +81,31 @@ rtp://@239.0.0.190:8208
 #EXTINF:-1,[028] Energy
 rtp://@239.0.0.59:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="30 Movistar Estrenos HD"  group-title="Pel·lícules",[030] Movistar Estrenos HD
+#EXTINF:-1, tvg-id="movistarestrenos.es" tvg-logo="Logo N/A" tvg-name="30 Movistar Estrenos HD"  group-title="Pel·lícules",[030] Movistar Estrenos HD
 rtp://@239.0.5.111:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="31 Movistar CineDoc&Roll HD {DRM}"  group-title="Pel·lícules",[031] Movistar CineDoc&Roll HD {DRM}
+#EXTINF:-1, tvg-id="cinedocroll.es" tvg-logo="Logo N/A" tvg-name="31 Movistar CineDoc&Roll HD {DRM}"  group-title="Pel·lícules",[031] Movistar CineDoc&Roll HD {DRM}
 rtp://@239.0.5.112:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="32 Disney+ HD"  group-title="Pel·lícules",[032] Disney+ HD
+#EXTINF:-1, tvg-id="Movistar Disney +" tvg-logo="Logo N/A" tvg-name="32 Disney+ HD"  group-title="Pel·lícules",[032] Disney+ HD
 rtp://@239.0.5.208:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="33 Movistar Acción HD"  group-title="Pel·lícules",[033] Movistar Acción HD
+#EXTINF:-1, tvg-id="movistaraccion.es" tvg-logo="Logo N/A" tvg-name="33 Movistar Acción HD"  group-title="Pel·lícules",[033] Movistar Acción HD
 rtp://@239.0.5.113:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="34 Movistar Comedia HD"  group-title="Pel·lícules",[034] Movistar Comedia HD
+#EXTINF:-1, tvg-id="movistarcomedia.es" tvg-logo="Logo N/A" tvg-name="34 Movistar Comedia HD"  group-title="Pel·lícules",[034] Movistar Comedia HD
 rtp://@239.0.5.114:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="35 Movistar Drama HD"  group-title="Pel·lícules",[035] Movistar Drama HD
+#EXTINF:-1, tvg-id="movistardrama.es" tvg-logo="Logo N/A" tvg-name="35 Movistar Drama HD"  group-title="Pel·lícules",[035] Movistar Drama HD
 rtp://@239.0.5.115:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="36 Movistar Cine Español HD"  group-title="Pel·lícules",[036 Movistar Cine Español HD
+#EXTINF:-1, tvg-id="movistarespanol.es" tvg-logo="Logo N/A" tvg-name="36 Movistar Cine Español HD"  group-title="Pel·lícules",[036 Movistar Cine Español HD
 rtp://@239.0.5.109:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="37 TCM HD"  group-title="Pel·lícules",[037 TCM HD
+#EXTINF:-1, tvg-id="tcm.es" tvg-logo="Logo N/A" tvg-name="37 TCM HD"  group-title="Pel·lícules",[037 TCM HD
 rtp://@239.0.5.89:8208
 
-#EXTINF:-1, tvg-id="EPG N/A" tvg-logo="Logo N/A" tvg-name="38 Hollywood HD"  group-title="Pel·lícules",[038 Hollywood HD
+#EXTINF:-1, tvg-id="hollywood.es" tvg-logo="Logo N/A" tvg-name="38 Hollywood HD"  group-title="Pel·lícules",[038 Hollywood HD
 rtp://@239.0.5.76:8208
 
 #EXTINF:-1,[041] 13 TV
