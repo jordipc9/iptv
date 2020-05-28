@@ -279,7 +279,7 @@ rtp://@239.0.0.75:8208
 #EXTINF:-1,[112] Canal 24 Horas
 rtp://@239.0.0.78:8208
 
-#EXTINF:-1,[113] BBC world
+#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_19_1389_3EA_1_C00000_0_0_0.png",[113] BBC World News
 rtp://@239.0.0.30:8208
 
 #EXTINF:-1,[114] CNNi
