@@ -1,21 +1,21 @@
 #EXTM3U
 
-#EXTINF:-1, tvh-chnum="000" tvg-id="EPG N/A" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_75C6_422_1_C00000_0_0_0.png" tvg-name="0 Movistar+ HD"  group-title="Generalistes",[000] Movistar+ HD
+#EXTINF:-1, tvh-chnum="0" tvg-id="EPG N/A" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_75C6_422_1_C00000_0_0_0.png" tvg-name="0 Movistar+ HD"  group-title="Generalistes",[000] Movistar+ HD
 rtp://@239.0.5.185:8208
 
-#EXTINF:-1, tvh-chnum="001" tvg-id="la1.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_77C0_40A_1_C00000_0_0_0.png" tvg-name="1 La 1 HD"  group-title="Generalistes",[001] La 1 HD
+#EXTINF:-1, tvh-chnum="1" tvg-id="la1.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_77C0_40A_1_C00000_0_0_0.png" tvg-name="1 La 1 HD"  group-title="Generalistes",[001] La 1 HD
 rtp://@239.0.0.185:8208
 
-#EXTINF:-1, tvh-chnum="002" tvg-id="la2.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_77C2_40A_1_C00000_0_0_0.png" tvg-name="2 La 2 HD"  group-title="Generalistes",[002] La 2 HD
+#EXTINF:-1, tvh-chnum="2" tvg-id="la2.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_77C2_40A_1_C00000_0_0_0.png" tvg-name="2 La 2 HD"  group-title="Generalistes",[002] La 2 HD
 rtp://@239.0.0.183:8208
 
-#EXTINF:-1, tvh-chnum="003" tvg-id="antena3.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_7604_408_1_C00000_0_0_0.png" tvg-name="3 Antena 3 HD"  group-title="Generalistes",[003] Antena 3 HD
+#EXTINF:-1, tvh-chnum="3" tvg-id="antena3.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_7604_408_1_C00000_0_0_0.png" tvg-name="3 Antena 3 HD"  group-title="Generalistes",[003] Antena 3 HD
 rtp://@239.0.0.186:8208
 
-#EXTINF:-1, tvh-chnum="004" tvg-id="cuatro.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_77C7_40A_1_C00000_0_0_0.png" tvg-name="4 Cuatro HD"  group-title="Generalistes",[004] Cuatro HD
+#EXTINF:-1, tvh-chnum="4" tvg-id="cuatro.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_77C7_40A_1_C00000_0_0_0.png" tvg-name="4 Cuatro HD"  group-title="Generalistes",[004] Cuatro HD
 rtp://@239.0.0.177:8208
 
-#EXTINF:-1, tvh-chnum="005" tvg-id="telecinco.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_77C3_40A_1_C00000_0_0_0.png" tvg-name="5 Tele 5 HD"  group-title="Generalistes",[005] Telecinco HD
+#EXTINF:-1, tvh-chnum="5" tvg-id="telecinco.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_77C3_40A_1_C00000_0_0_0.png" tvg-name="5 Tele 5 HD"  group-title="Generalistes",[005] Telecinco HD
 rtp://@239.0.0.176:8208
 
 #EXTINF:-1, tvg-id="lasexta.es" tvg-logo="https://raw.githubusercontent.com/rulogarcillan/picons_movistarplus/master/picon/1_0_1_77BF_40A_1_C00000_0_0_0.png" tvg-name="6 La Sexta HD"  group-title="Generalistes",[006] La Sexta HD
