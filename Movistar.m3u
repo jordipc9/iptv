@@ -69,7 +69,7 @@ rtp://@239.0.0.165:8208
 #EXTINF:-1, tvg-id="axnwhite.es" tvg-logo="Logo N/A" tvg-name="21 AXN White HD"  group-title="Series",[021] AXN White HD
 rtp://@239.0.5.79:8208
 
-#EXTINF:-1, tvg-id="syfy.es" tvg-logo="Logo N/A" tvg-name="22 Syfy HD"  group-title="Series",[022] Syfy HD
+#EXTINF:-1, m3u-name="22 Syfy" tvg-id="syfy.es" tvg-logo="Logo N/A" tvg-name="22 Syfy HD"  group-title="Series",[022] Syfy HD
 rtp://@239.0.5.75:8208
 
 #EXTINF:-1,[024] MTV España
