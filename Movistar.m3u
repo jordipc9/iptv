@@ -347,3 +347,6 @@ rtp://@239.0.0.61:8208
 
 #EXTINF:-1,[160] betevé
 rtp://@239.0.0.110:8208
+
+#EXTINF:-1,MSNBC
+http://status.tehw00t.net/miniProxy.php/https://ctl.stream.msnbc.com/live/MSNBC398a080a-ua/master.m3u8
