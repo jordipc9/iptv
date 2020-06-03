@@ -30,6 +30,9 @@ rtp://@239.0.5.197:8208
 #EXTINF:-1, tvg-id="TV3 CAT" tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/tv3.png" tvg-name="9 TV3 HD"  group-title="Generalistes",[009] TV3 HD
 rtp://@239.0.5.186:8208
 
+#EXTINF:-1, tvg-id="TV3 CAT" tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/tv3.png" tvg-name="9 TV3 Startover"  group-title="Generalistes",[009a] TV3 Startover
+http://adaptive-startover.ccma.cat/segments/ccma/3433/manifest.mpd
+
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/teve.cat/picture?width=200&height=200" group-title="Cataluña" tvg-name="teve.cat",teve.cat
 https://www.tdtchannels.com/stream/tevecat.m3u8
 
