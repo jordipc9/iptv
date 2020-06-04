@@ -31,7 +31,7 @@ rtp://@239.0.5.197:8208
 rtp://@239.0.5.186:8208
 
 #EXTINF:-1,TV3 Startover
-http://adaptive-startover.ccma.cat/segments/ccma/3431/manifest.mpd
+http://adaptive-startover.ccma.cat/segments/ccma/3408/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/teve.cat/picture?width=200&height=200" group-title="Cataluña" tvg-name="teve.cat",teve.cat
 https://www.tdtchannels.com/stream/tevecat.m3u8
@@ -353,3 +353,12 @@ rtp://@239.0.0.110:8208
 
 #EXTINF:-1,MSNBC
 http://status.tehw00t.net/miniProxy.php/https://ctl.stream.msnbc.com/live/MSNBC398a080a-ua/master.m3u8
+
+#EXTINF:-1,MTV
+http://cdn.yoursports.stream/mtv.m3u8
+
+#EXTINF:-1,CNN
+https://1861340594.rsc.cdn77.org/c5KqVZ44PzkqsOWmL4WRjg==,1591237874/ls-54548-1/index.m3u8
+
+#EXTINF:-1,CNN
+https://1861340594.rsc.cdn77.org/c5KqVZ44PzkqsOWmL4WRjg==,1591237874/ls-54548-1/tracks-v1a1/mono.m3u8
