@@ -1,0 +1,67 @@
+#EXTM3U
+
+#EXTINF:-1, tvg-id="TV3 HD" tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/tv3.png" tvg-name="9 TV3 HD"  group-title="Generalistes",[009] TV3 HD
+https://directes-tv-cat.ccma.cat/live-origin/tv3-hls/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/teve.cat/picture?width=200&height=200" group-title="Cataluña" tvg-name="teve.cat",teve.cat
+https://www.tdtchannels.com/stream/tevecat.m3u8
+
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/teve.cat/picture?width=200&height=200" group-title="Cataluña" tvg-name="teve.cat",teve.cat
+https://limited35.todostreaming.es/live/mitjans-livestream.m3u8
+
+#EXTINF:-1, tvg-id="8tv" tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/8tv.png",[010] 8tv
+https://8tv-cellnex-hlslive.secure.footprint.net/egress/bhandler/tevecat/tvcat/manifest.m3u8
+
+#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/super333.png",[156] SX3 / 33
+https://directes-tv-cat.ccma.cat/live-origin/c33-super3-hls/master.m3u8
+
+#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/super333.png",[156] SX3
+https://directes-tv-cat.ccma.cat/live-origin/super3-hls/master.m3u8
+
+#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/esport3.png",[157] Esport3
+https://directes-tv-cat.ccma.cat/live-origin/esport3-hls/master.m3u8
+
+#EXTINF:-1,[158] 3/24
+https://directes-tv-cat.ccma.cat/live-origin/canal324-hls/master.m3u8
+
+#EXTINF:-1,[160] betevé
+https://klive.kaltura.com/s/env/cluster-1-a.live.frp1/live/hls/p/2346171/e/1_n6442jz0/tl/main/st/0/t/2FkeV5cunjuJV2kjRn059g/index-s32.m3u8?__hdnea__=st=1665405715~exp=1665492115~acl=/s/env/cluster-1-a.live.frp1/live/hls/p/2346171/e/1_n6442jz0/tl/main/st/0/t/2FkeV5cunjuJV2kjRn059g/index-s32.m3u8*~hmac=491c14092f53eec8c16c7d67d1211bec53063ded7503cccef789b3f3690114a4
+
+#EXTINF:-1,[009] Canal Sur 1 HD
+rtp://@239.0.5.192:8208
+
+#EXTINF:-1,[009] ETB 1 HD
+rtp://@239.0.5.178:8208
+
+#EXTINF:-1,[010] ETB 2 HD
+rtp://@239.0.5.179:8208
+
+#EXTINF:-1,[009] TeleMadrid HD
+rtp://@239.0.0.181:8208
+
+#EXTINF:-1,[009] TVG HD
+rtp://@239.0.5.182:8208
+
+#EXTINF:-1,[010] TVG 2 HD
+rtp://@239.0.5.183:8208
+
+#EXTINF:-1,MSNBC
+http://status.tehw00t.net/miniProxy.php/https://ctl.stream.msnbc.com/live/MSNBC398a080a-ua/master.m3u8
+
+#EXTINF:-1,MTV
+http://cdn.yoursports.stream/mtv.m3u8
+
+#EXTINF:-1,CNN
+https://1861340594.rsc.cdn77.org/c5KqVZ44PzkqsOWmL4WRjg==,1591237874/ls-54548-1/index.m3u8
+
+#EXTINF:-1,CNN
+https://1861340594.rsc.cdn77.org/c5KqVZ44PzkqsOWmL4WRjg==,1591237874/ls-54548-1/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1, [009] À Punt
+rtp://@239.0.3.32:8208
+
+#EXTINF:-1, [010] La Ocho Mediterráneo
+rtp://@239.0.3.34:8208
+
+https://v1.catcast.tv/content/36987/index.m3u8
+http://status.tehw00t.net/miniProxy.php/http://cdn.yoursports.stream/hgtv.m3u8
