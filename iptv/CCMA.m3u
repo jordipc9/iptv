@@ -1,18 +1,18 @@
 #EXTM3U
 
-#EXTINF:-1, tvg-id="tv3catalunya.es" tvg-logo="https://logo.m3uassets.com/tv3catalunya.png" tvg-name="TV3",TV3
+#EXTINF:-1, tvg-id="tv3.es" tvg-logo="https://logo.m3uassets.com/tv3catalunya.png" tvg-name="TV3",TV3
 https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8
 
-#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/super333.png",SX3 / 33
+#EXTINF:-1, tvg-id="33.es" tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/super333.png",SX3 / 33
 https://directes-tv-cat.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8
 
-#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/super333.png",SX3
+#EXTINF:-1, tvg-id="sx3.es" tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/super333.png",SX3
 https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8
 
-#EXTINF:-1, tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/esport3.png",Esport3
+#EXTINF:-1, tvg-id="esport3.es" tvg-logo="https://raw.githubusercontent.com/jordipc9/iptv/master/picon/esport3.png",Esport3
 https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 
-#EXTINF:-1,3catInfo
+#EXTINF:-1,tvg-id="324.es",3catInfo
 https://directes-tv-int.3catdirectes.cat/live-content/canal324-hls/master.m3u8
 
 #EXTINF:-1,betevé
@@ -20,5 +20,6 @@ https://klive.kaltura.com/s/env/cluster-1-a.live.frp1/live/hls/p/2346171/e/1_n64
 
 #EXTINF:-1,À Punt
 https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NDY3NTY0Nzk0MDgzMDMwNDUifQ.o6wb_VA-TVxl3ERgr7FKLlaTjY7smErmsf73QAydySE/playlist-hls-dvr.m3u8
+
 
 
