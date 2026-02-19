@@ -3,23 +3,24 @@
 #EXTINF:-1, tvg-id="TV3.TV" tvg-name="TV3 CAT" tvg-logo="https://logo.m3uassets.com/tv3catalunya.png" tvg-name="TV3",TV3
 https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8
 
-#EXTINF:-1, tvg-id="33.es" tvg-logo="https://statics.ccma.cat/img/favicons/33-apple-touch-icon-180x180.png",SX3 33
+#EXTINF:-1, tvg-id="C33.TV" tvg-logo="https://statics.ccma.cat/img/favicons/33-apple-touch-icon-180x180.png",SX3 33
 https://directes-tv-cat.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8
 
-#EXTINF:-1, tvg-id="sx3.es" tvg-logo="https://statics.ccma.cat/img/favicons/super3-apple-touch-icon-180x180.png",SX3
+#EXTINF:-1, tvg-id="SX3.TV" tvg-logo="https://statics.ccma.cat/img/favicons/super3-apple-touch-icon-180x180.png",SX3
 https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8
 
-#EXTINF:-1, tvg-id="esport3.es" tvg-logo="https://logo.m3uassets.com/esport3.png",Esport3
+#EXTINF:-1, tvg-id="E3.TV" tvg-logo="https://logo.m3uassets.com/esport3.png",Esport3
 https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 
-#EXTINF:-1, tvg-id="324.es" tvg-logo="https://logo.m3uassets.com/324.png",3catInfo
+#EXTINF:-1, tvg-id="324.TV" tvg-logo="https://logo.m3uassets.com/324.png",3catInfo
 https://directes-tv-int.3catdirectes.cat/live-content/canal324-hls/master.m3u8
 
-#EXTINF:-1, tvg-logo="https://beteve.cat/wp-content/themes/beteve/img/logo.svg",betevé
+#EXTINF:-1, tvg-id="BTV.TV" tvg-logo="https://beteve.cat/wp-content/themes/beteve/img/logo.svg",betevé
 https://klive.kaltura.com/s/env/cluster-1-a.live.frp1/live/hls/p/2346171/e/1_n6442jz0/tl/main/st/0/t/2FkeV5cunjuJV2kjRn059g/index-s32.m3u8?__hdnea__=st=1665405715~exp=1665492115~acl=/s/env/cluster-1-a.live.frp1/live/hls/p/2346171/e/1_n6442jz0/tl/main/st/0/t/2FkeV5cunjuJV2kjRn059g/index-s32.m3u8*~hmac=491c14092f53eec8c16c7d67d1211bec53063ded7503cccef789b3f3690114a4
 
-#EXTINF:-1, tvg-id="àpunt.es" tvg-logo="https://logo.m3uassets.com/punt.png",À Punt
+#EXTINF:-1, tvg-id="APUNT.TV" tvg-logo="https://logo.m3uassets.com/punt.png",À Punt
 https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NDY3NTY0Nzk0MDgzMDMwNDUifQ.o6wb_VA-TVxl3ERgr7FKLlaTjY7smErmsf73QAydySE/playlist-hls-dvr.m3u8
+
 
 
 
