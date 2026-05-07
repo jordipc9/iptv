@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <title>3Cat Live</title>
+
+  <!-- ============================================================
+    PWA & iOS Web App Meta Tags
+  ============================================================ -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="3Cat Live">
+  <meta name="theme-color" content="#0c0c0e">
+  <meta name="description" content="Mira els canals de 3Cat en directe">
+
+  <!-- PWA Manifest (inline via data URI per no necessitar servidor) -->
+  <link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%223Cat%20Live%22%2C%22short_name%22%3A%223Cat%22%2C%22start_url%22%3A%22.%2Findex.html%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%230c0c0e%22%2C%22theme_color%22%3A%22%230c0c0e%22%2C%22orientation%22%3A%22any%22%7D">
+
+  <!-- Icones iOS (apunten als originals de CCMA) -->
+  <link rel="apple-touch-icon" href="https://statics.ccma.cat/img/favicons/tv3-apple-touch-icon-180x180.png">
+
+  <!-- Google Font: Syne (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    /* ============================================================
+      CSS Variables & Reset
+    ============================================================ */
+    :root {
+      --bg:          #0c0c0e;
+      --surface:     #17171a;
+      --surface2:    #1f1f24;
+      --border:      rgba(255,255,255,0.07);
+      --text:        #f0f0f2;
+      --text-muted:  #7a7a8a;
+      --accent:      #e30613;   /* canvia dinàmicament per canal */
+      --radius-sm:   10px;
+      --radius-md:   16px;
+      --radius-lg:   24px;
+      --safe-top:    env(safe-area-inset-top, 0px);
+      --safe-bottom: env(safe-area-inset-bottom, 0px);
+      --safe-left:   env(safe-area-inset-left, 0px);
+      --safe-right:  env(safe-area-inset-right, 0px);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      overscroll-behavior: none;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100dvh;
+      padding-top: var(--safe-top);
+      padding-bottom: var(--safe-bottom);
+      padding-left: var(--safe-left);
+      padding-right: var(--safe-right);
+    }
+
+    /* ============================================================
+      Header
+    ============================================================ */
+    .app-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px 10px;
+      flex-shrink: 0;
+    }
+
+    .app-wordmark {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 1.25rem;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+
+    .app-wordmark span {
+      color: var(--accent);
+      transition: color 0.4s ease;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .icon-btn {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: none;
+      background: var(--surface2);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .icon-btn:active {
+      background: var(--surface);
+      transform: scale(0.92);
+    }
+
+    .icon-btn svg { display: block; }
+
+    /* ============================================================
+      Video Container
+    ============================================================ */
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      background: #000;
+      flex-shrink: 0;
+    }
+
+    /* Mantenim aspecte 16:9 */
+    .video-aspect {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+    }
+
+    video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      display: block;
+    }
+
+    /* Overlay d'informació sobre el vídeo (no bloqueja controls) */
+    .video-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      pointer-events: none; /* permet tocar els controls de sota */
+      padding: 12px 14px;
+      background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, transparent 100%);
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      z-index: 2;
+      transition: opacity 0.3s;
+    }
+
+    .channel-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0,0,0,0.55);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-radius: 8px;
+      padding: 5px 10px 5px 7px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .channel-badge img {
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+      object-fit: contain;
+    }
+
+    .channel-badge-name {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.02em;
+      color: #fff;
+    }
+
+    /* Indicador LIVE + hora real */
+    .live-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+    }
+
+    .live-pill {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(0,0,0,0.55);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-radius: 6px;
+      padding: 4px 8px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .live-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: pulse-dot 1.8s ease-in-out infinite;
+    }
+
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.4; transform: scale(0.7); }
+    }
+
+    .live-label {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      color: #fff;
+    }
+
+    /* Hora d'emissió en temps real */
+    .broadcast-time {
+      font-size: 0.7rem;
+      color: rgba(255,255,255,0.7);
+      font-weight: 300;
+      letter-spacing: 0.03em;
+      display: none; /* s'activa quan el vídeo es mou endarrere */
+    }
+
+    .broadcast-time.visible { display: block; }
+
+    /* ============================================================
+      Estat: càrrega / error
+    ============================================================ */
+    .status-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,0.75);
+      z-index: 3;
+      gap: 12px;
+      transition: opacity 0.3s;
+    }
+
+    .status-overlay.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .spinner {
+      width: 36px;
+      height: 36px;
+      border: 3px solid rgba(255,255,255,0.15);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .status-text {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.7);
+      font-weight: 300;
+    }
+
+    .error-icon {
+      font-size: 2rem;
+      display: none;
+    }
+
+    .status-overlay.error .spinner { display: none; }
+    .status-overlay.error .error-icon { display: block; }
+    .status-overlay.error .status-text { color: #ff6b6b; }
+
+    /* Botó reintentar */
+    .retry-btn {
+      display: none;
+      margin-top: 4px;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 9px 22px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .status-overlay.error .retry-btn { display: block; }
+
+    /* ============================================================
+      Info del canal (sota el vídeo)
+    ============================================================ */
+    .channel-info-bar {
+      padding: 14px 20px 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+
+    .channel-name-display {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 1.45rem;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      transition: color 0.3s;
+    }
+
+    .timeshift-hint {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 300;
+      margin-top: 2px;
+    }
+
+    /* ============================================================
+      Selector de canals
+    ============================================================ */
+    .channels-section {
+      padding: 4px 20px 12px;
+      flex-shrink: 0;
+    }
+
+    .channels-label {
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .channels-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+    }
+
+    .channel-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 7px;
+      padding: 12px 6px;
+      background: var(--surface);
+      border-radius: var(--radius-md);
+      border: 1.5px solid var(--border);
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: background 0.2s, border-color 0.25s, transform 0.15s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .channel-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: var(--ch-color, var(--accent));
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .channel-card.active {
+      border-color: var(--ch-color, var(--accent));
+      background: var(--surface2);
+    }
+
+    .channel-card.active::before { opacity: 0.08; }
+
+    .channel-card:active {
+      transform: scale(0.94);
+    }
+
+    .channel-card img {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      object-fit: contain;
+      position: relative;
+      z-index: 1;
+    }
+
+    .channel-card-label {
+      font-size: 0.65rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      letter-spacing: 0.03em;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      transition: color 0.2s;
+    }
+
+    .channel-card.active .channel-card-label {
+      color: var(--text);
+    }
+
+    /* Indicador actiu */
+    .active-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2.5px;
+      background: var(--ch-color, var(--accent));
+      z-index: 2;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .channel-card.active .active-bar { opacity: 1; }
+
+    /* ============================================================
+      Separador
+    ============================================================ */
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 0 20px;
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+      Barra d'accions ràpides
+    ============================================================ */
+    .quick-actions {
+      display: flex;
+      gap: 10px;
+      padding: 14px 20px;
+      flex-shrink: 0;
+    }
+
+    .action-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 13px 10px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 400;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: background 0.2s, transform 0.15s;
+      white-space: nowrap;
+    }
+
+    .action-btn:active {
+      background: var(--surface2);
+      transform: scale(0.96);
+    }
+
+    .action-btn svg { flex-shrink: 0; }
+
+    /* Botó de programació (enlla ç extern) */
+    .action-btn.prog { text-decoration: none; }
+
+    /* ============================================================
+      Peu
+    ============================================================ */
+    .app-footer {
+      margin-top: auto;
+      padding: 10px 20px 16px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .app-footer p {
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .app-footer a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    /* ============================================================
+      Toast de notificació
+    ============================================================ */
+    .toast {
+      position: fixed;
+      bottom: calc(20px + var(--safe-bottom));
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: rgba(30,30,35,0.95);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 18px;
+      font-size: 0.82rem;
+      color: var(--text);
+      white-space: nowrap;
+      opacity: 0;
+      transition: opacity 0.25s, transform 0.25s;
+      z-index: 100;
+      pointer-events: none;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* ============================================================
+      Responsive: pantalles grans
+    ============================================================ */
+    @media (min-width: 640px) {
+      .channels-grid {
+        grid-template-columns: repeat(5, 1fr);
+        max-width: 480px;
+      }
+
+      .quick-actions { max-width: 480px; }
+
+      body { max-width: 560px; margin: 0 auto; }
+    }
+
+    @media (orientation: landscape) and (max-height: 500px) {
+      /* En landscape, reduïm el padding per aprofitar l'espai */
+      .app-header { padding: 8px 20px 6px; }
+      .channels-section { padding: 4px 20px 8px; }
+      .quick-actions { padding: 8px 20px; }
+      .channel-name-display { font-size: 1.15rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+    Header
+  ============================================================ -->
+  <header class="app-header">
+    <div class="app-wordmark">3Cat<span>·</span>Live</div>
+    <div class="header-actions">
+      <!-- Botó compartir -->
+      <button class="icon-btn" id="shareBtn" aria-label="Compartir canal" title="Compartir">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================
+    Reproductor de vídeo
+  ============================================================ -->
+  <div class="video-wrapper">
+    <div class="video-aspect">
+
+      <!-- OVERLAY D'INFORMACIÓ (no bloqueja controls natius) -->
+      <div class="video-overlay" id="videoOverlay">
+        <div class="channel-badge" id="overlayBadge">
+          <img id="overlayIcon" src="" alt="">
+          <span class="channel-badge-name" id="overlayName">TV3</span>
+        </div>
+        <div class="live-info">
+          <div class="live-pill">
+            <div class="live-dot"></div>
+            <span class="live-label">EN DIRECTE</span>
+          </div>
+          <!-- Hora real d'emissió quan l'usuari reembobina -->
+          <span class="broadcast-time" id="broadcastTime"></span>
+        </div>
+      </div>
+
+      <!-- OVERLAY D'ESTAT (càrrega / error) -->
+      <div class="status-overlay" id="statusOverlay">
+        <div class="spinner"></div>
+        <span class="error-icon">⚠️</span>
+        <span class="status-text" id="statusText">Connectant…</span>
+        <button class="retry-btn" id="retryBtn">Tornar a intentar</button>
+      </div>
+
+      <!--
+        VIDEO NADIU — Decisió de disseny:
+        Mantenim el <video> natiu amb 'controls' per preservar:
+          • Picture in Picture (iOS Safari & Chrome)
+          • AirPlay  (x-webkit-airplay="allow")
+          • DVR / timeshift natiu de l'stream HLS
+          • Reproducció en segon pla via PiP
+        No s'usa cap library externa de player.
+      -->
+      <video
+        id="mainVideo"
+        controls
+        autoplay
+        playsinline
+        webkit-playsinline
+        x-webkit-airplay="allow"
+        disablepictureinpicture="false"
+        preload="none"
+        aria-label="Reproductor de vídeo en directe"
+      ></video>
+    </div>
+  </div>
+
+  <!-- ============================================================
+    Info canal actiu
+  ============================================================ -->
+  <div class="channel-info-bar">
+    <div>
+      <div class="channel-name-display" id="channelNameDisplay">TV3</div>
+      <div class="timeshift-hint">Rebobinable fins a 2h enrere · Fes servir la barra de l'iOS</div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+    Selector de canals
+  ============================================================ -->
+  <div class="channels-section">
+    <div class="channels-label">Canals</div>
+    <div class="channels-grid" id="channelsGrid">
+      <!-- Generat per JS -->
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ============================================================
+    Accions ràpides
+  ============================================================ -->
+  <div class="quick-actions">
+    <a
+      class="action-btn prog"
+      id="scheduleLink"
+      href="https://www.ccma.cat/tv3/programacio/canal-tv3/"
+      target="_blank"
+      rel="noopener"
+      aria-label="Veure programació"
+    >
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/>
+        <line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+      </svg>
+      Programació
+    </a>
+    <button class="action-btn" id="goLiveBtn" aria-label="Tornar al directe">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="5 3 19 12 5 21 5 3"/>
+      </svg>
+      Al directe
+    </button>
+  </div>
+
+  <!-- ============================================================
+    Peu de pàgina
+  ============================================================ -->
+  <footer class="app-footer">
+    <p>
+      Streams oficials de <a href="https://www.ccma.cat" target="_blank" rel="noopener">CCMA / 3Cat</a>.
+      Funciona millor a Safari per AirPlay i PiP.
+    </p>
+  </footer>
+
+  <!-- Toast de notificació -->
+  <div class="toast" id="toast"></div>
+
+  <!-- ============================================================
+    JavaScript
+  ============================================================ -->
+  <script>
+    // ============================================================
+    // Definició dels canals
+    // ============================================================
+    const CHANNELS = [
+      {
+        id:      'tv3',
+        name:    'TV3',
+        icon:    'https://statics.ccma.cat/img/favicons/tv3-apple-touch-icon-180x180.png',
+        stream:  'https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8',
+        color:   '#e30613',
+        schedule:'https://www.ccma.cat/tv3/programacio/canal-tv3/',
+      },
+      {
+        id:      'sx3',
+        name:    'SX3',
+        icon:    'https://statics.ccma.cat/img/sx3/favicons/apple-touch-icon.png',
+        stream:  'https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8',
+        color:   '#00a651',
+        schedule:'https://www.ccma.cat/tv3/programacio/canal-super3/',
+      },
+      {
+        id:      'c33',
+        name:    'Canal 33',
+        icon:    'https://statics.ccma.cat/img/favicons/33-apple-touch-icon-180x180.png',
+        stream:  'https://directes-tv-cat.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8',
+        color:   '#f7941d',
+        schedule:'https://www.ccma.cat/tv3/programacio/canal-33/',
+      },
+      {
+        id:      'esport3',
+        name:    'Esport3',
+        icon:    'https://statics.ccma.cat/img/favicons/esport3-apple-touch-icon-180x180.png',
+        stream:  'https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8',
+        color:   '#00aeef',
+        schedule:'https://www.ccma.cat/tv3/programacio/canal-esport3/',
+      },
+      {
+        id:      '324',
+        name:    '324',
+        icon:    'https://statics.ccma.cat/img/favicons/324-apple-touch-icon-180x180.png',
+        stream:  'https://directes-tv-int.3catdirectes.cat/live-content/canal324-hls/master.m3u8',
+        color:   '#8e1a2e',
+        schedule:'https://www.ccma.cat/tv3/programacio/canal-324/',
+      },
+    ];
+
+    // ============================================================
+    // Estat de l'app
+    // ============================================================
+    let currentChannel = null;
+    let errorTimer     = null;
+
+    // Elements del DOM
+    const video           = document.getElementById('mainVideo');
+    const statusOverlay   = document.getElementById('statusOverlay');
+    const statusText      = document.getElementById('statusText');
+    const retryBtn        = document.getElementById('retryBtn');
+    const channelsGrid    = document.getElementById('channelsGrid');
+    const channelNameDisp = document.getElementById('channelNameDisplay');
+    const overlayBadge    = document.getElementById('overlayBadge');
+    const overlayIcon     = document.getElementById('overlayIcon');
+    const overlayName     = document.getElementById('overlayName');
+    const broadcastTime   = document.getElementById('broadcastTime');
+    const shareBtn        = document.getElementById('shareBtn');
+    const goLiveBtn       = document.getElementById('goLiveBtn');
+    const scheduleLink    = document.getElementById('scheduleLink');
+    const toast           = document.getElementById('toast');
+
+    // ============================================================
+    // Renderitza el grid de canals
+    // ============================================================
+    function renderChannels() {
+      channelsGrid.innerHTML = '';
+      CHANNELS.forEach(ch => {
+        const card = document.createElement('button');
+        card.className    = 'channel-card';
+        card.dataset.id   = ch.id;
+        card.style.setProperty('--ch-color', ch.color);
+        card.setAttribute('aria-label', `Veure ${ch.name}`);
+        card.innerHTML = `
+          <img src="${ch.icon}" alt="${ch.name}" loading="lazy">
+          <span class="channel-card-label">${ch.name}</span>
+          <div class="active-bar"></div>
+        `;
+        card.addEventListener('click', () => loadChannel(ch.id));
+        channelsGrid.appendChild(card);
+      });
+    }
+
+    // ============================================================
+    // Càrrega d'un canal
+    // ============================================================
+    function loadChannel(id) {
+      const ch = CHANNELS.find(c => c.id === id);
+      if (!ch) return;
+      if (currentChannel?.id === id) return;
+
+      currentChannel = ch;
+
+      // Actualitza URL hash per poder compartir / tornar
+      history.replaceState(null, '', '#' + id);
+
+      // Actualitza accent color (CSS variable)
+      document.documentElement.style.setProperty('--accent', ch.color);
+
+      // Actualitza UI
+      channelNameDisp.textContent = ch.name;
+      overlayName.textContent     = ch.name;
+      overlayIcon.src             = ch.icon;
+      overlayIcon.alt             = ch.name;
+      scheduleLink.href           = ch.schedule;
+
+      // Marca la targeta activa
+      document.querySelectorAll('.channel-card').forEach(card => {
+        card.classList.toggle('active', card.dataset.id === id);
+      });
+
+      // Mostra l'overlay de càrrega
+      setStatus('loading');
+
+      // Carrega el nou stream
+      video.src = ch.stream;
+      video.load();
+
+      // Intenta reproduir (pot requerir interacció en alguns navegadors)
+      const playPromise = video.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(err => {
+          // No és un error real si és "AbortError" per canvi ràpid de canal
+          if (err.name !== 'AbortError') {
+            console.warn('Autoplay bloquejat, l\'usuari ha de prémer play.', err);
+          }
+        });
+      }
+
+      // Reinicia el timer de la hora d'emissió
+      broadcastTime.classList.remove('visible');
+    }
+
+    // ============================================================
+    // Gestió d'estats del reproductor
+    // ============================================================
+    function setStatus(state, msg) {
+      statusOverlay.classList.remove('error', 'hidden');
+
+      if (state === 'loading') {
+        statusText.textContent = msg || 'Connectant…';
+      } else if (state === 'error') {
+        statusOverlay.classList.add('error');
+        statusText.textContent = msg || 'No s\'ha pogut carregar el canal.';
+      } else if (state === 'playing') {
+        statusOverlay.classList.add('hidden');
+      }
+    }
+
+    // Events del vídeo
+    video.addEventListener('waiting',  () => setStatus('loading', 'Carregant…'));
+    video.addEventListener('stalled',  () => setStatus('loading', 'Recuperant senyal…'));
+
+    video.addEventListener('playing', () => {
+      clearTimeout(errorTimer);
+      setStatus('playing');
+    });
+
+    video.addEventListener('canplay', () => {
+      clearTimeout(errorTimer);
+      setStatus('playing');
+    });
+
+    video.addEventListener('error', () => {
+      clearTimeout(errorTimer);
+      setStatus('error', 'Error al carregar el canal. Comprova la connexió.');
+    });
+
+    // Si tarda massa en arrencar, mostrem error
+    video.addEventListener('waiting', () => {
+      clearTimeout(errorTimer);
+      errorTimer = setTimeout(() => {
+        if (video.readyState < 3) {
+          setStatus('error', 'La connexió és lenta o el canal no está disponible.');
+        }
+      }, 20000);
+    });
+
+    // Botó de reintentar
+    retryBtn.addEventListener('click', () => {
+      if (currentChannel) loadChannel(currentChannel.id);
+    });
+
+    // ============================================================
+    // Hora real d'emissió quan es reembobina
+    // Mostra la hora de la senyal en temps real (no el temps relatiu)
+    // Funciona estimant: ara - (durada_dvr - posició_actual)
+    // ============================================================
+    function updateBroadcastTime() {
+      if (!video.duration || !isFinite(video.duration)) {
+        broadcastTime.classList.remove('visible');
+        return;
+      }
+
+      const LIVE_THRESHOLD = 30; // segons: si estem a menys de 30s del final = directe
+      const secondsBehind  = video.duration - video.currentTime;
+
+      if (secondsBehind < LIVE_THRESHOLD) {
+        broadcastTime.classList.remove('visible');
+        return;
+      }
+
+      // Hora real d'emissió
+      const emissionTime = new Date(Date.now() - secondsBehind * 1000);
+      const hh = String(emissionTime.getHours()).padStart(2, '0');
+      const mm = String(emissionTime.getMinutes()).padStart(2, '0');
+      broadcastTime.textContent = `⏮ ${hh}:${mm}`;
+      broadcastTime.classList.add('visible');
+    }
+
+    video.addEventListener('timeupdate', updateBroadcastTime);
+
+    // ============================================================
+    // Botó "Al directe" — salta al final del DVR
+    // ============================================================
+    goLiveBtn.addEventListener('click', () => {
+      if (!video.duration || !isFinite(video.duration)) return;
+
+      // En HLS live, seekar al final és la forma de tornar al directe
+      video.currentTime = video.duration;
+      video.play().catch(() => {});
+      showToast('Tornant al directe…');
+    });
+
+    // ============================================================
+    // Web Share API — compatible amb iOS Safari
+    // ============================================================
+    shareBtn.addEventListener('click', async () => {
+      if (!currentChannel) return;
+
+      const shareData = {
+        title: `3Cat Live · ${currentChannel.name}`,
+        text:  `Mira ${currentChannel.name} en directe`,
+        url:   window.location.href,
+      };
+
+      if (navigator.share) {
+        try {
+          await navigator.share(shareData);
+        } catch (err) {
+          if (err.name !== 'AbortError') showToast('No s\'ha pogut compartir.');
+        }
+      } else {
+        // Fallback: copia l'URL al porta-retalls
+        try {
+          await navigator.clipboard.writeText(window.location.href);
+          showToast('URL copiada al porta-retalls');
+        } catch {
+          showToast('Compartir no disponible en aquest navegador.');
+        }
+      }
+    });
+
+    // ============================================================
+    // Toast
+    // ============================================================
+    let toastTimer;
+    function showToast(msg, duration = 2500) {
+      toast.textContent = msg;
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove('show'), duration);
+    }
+
+    // ============================================================
+    // Inicialització
+    // ============================================================
+    function init() {
+      renderChannels();
+
+      // Llegeix el canal del hash de l'URL (permet deep linking)
+      const hashId = window.location.hash.replace('#', '');
+      const initial = CHANNELS.find(c => c.id === hashId) ? hashId : CHANNELS[0].id;
+
+      loadChannel(initial);
+    }
+
+    // Canvi de hash (si l'usuari navega enrere/endavant)
+    window.addEventListener('hashchange', () => {
+      const id = window.location.hash.replace('#', '');
+      if (id && id !== currentChannel?.id) loadChannel(id);
+    });
+
+    // Ocultar overlay quan hi ha un event de toc (millora visibilitat en mobile)
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
